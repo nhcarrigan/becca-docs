@@ -3,7 +3,7 @@
 This repository contains the files for the documentation website for Becca Lyria.
 
 ![](https://img.shields.io/codeclimate/maintainability/BeccaLyria/discord-documentation)
-![](https://img.shields.io/codeclimate/issues/BeccaLyria/discord-documentation)
+[![](https://img.shields.io/github/issues-pr/BeccaLyria/discord-documentation)](https://github.com/BeccaLyria/discord-documentation/pulls)
 ![](https://img.shields.io/codeclimate/tech-debt/BeccaLyria/discord-documentation)
 ![](https://img.shields.io/lgtm/alerts/github/BeccaLyria/discord-documentation)
 ![](https://img.shields.io/lgtm/grade/javascript/github/BeccaLyria/discord-documentation)
