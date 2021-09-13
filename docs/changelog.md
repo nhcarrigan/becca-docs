@@ -8,7 +8,11 @@ Becca's updates are deployed every Monday around 10AM Pacific Time.
 
 ## Version 16
 
-### 16.9.0
+### 16.20.0
+
+- Updated link regex to use config, should make things clearer for contributors.
+
+### 16.19.0
 
 - Added the `updates` command.
 
