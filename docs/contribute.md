@@ -1,27 +1,39 @@
-# Contributing to Becca
+# Contribute to Becca
 
-Are you interested in contributing to this project? We are very excited to receive issues and pull requests, and welcome contributions from all users.
+These pages provide information for contributing to Becca's development. While primarily intended for developers, there are many opportunities for anyone to contribute.
 
-## Reporting Bugs and Requesting Features
+## How to Contribute
 
-We accept bug reports and feature requests from all contributors. Please follow the instructions below for our workflow.
+This page gives a basic overview of possible ways to contribute to Becca.
 
-## Feature Requests
+[View Guide](/how-to-contribute.md)
 
-Do you have a feature you would like to see added to Becca? Create a new issue using the "Feature Request" template and we will get started on it as soon as we are able.
+## File Structure
 
-## Found A Bug
+A brief overview of how files are laid out in the codebase.
 
-Did you discover a bug when interacting with Becca? Unfortunately, despite our best efforts we are still not quite perfect. You can submit a new issue using the "Bug Report" template and we will address it as soon as possible.
+[View Guide](/file-structure.md)
 
-## Creating a PR
+## Create a Local Instance
 
-If you have an idea for a new feature or fix, you are more than welcome to create a pull request on the GitHub repository.
+Steps for setting up a local version of the code.
 
-## Other Contributions
+[View Guide](/create-local.md)
 
-If you are not comfortable with working on the codebase, there are still other ways you can contribute! You can:
+## Set up the Code
 
-- Help test features
-- Help propose new features
-- Keep this documentation page up to date!
+Steps for preparing the code to run. This is where you find the values for the `.env` file.
+
+[View Guide](/setup-code.md)
+
+## Deploy the Code
+
+A brief description for inviting your bot.
+
+[View Guide](/deploy-code.md)
+
+## Create a Pull Request
+
+Instructions for our expected standards when you are ready to propose your changes.
+
+[View Guide](/creating-pr.md)
