@@ -22,3 +22,12 @@ Before you do anything else, make sure that Node.js and npm are installed. If yo
 `npm run build` - This will build the TypeScript files into runnable JavaScript files.
 
 Congratulations! You are now ready to run the code locally - the start command is `npm run start`. To connect the code to your Discord Bot application, continue reading.
+
+## Requirements
+
+| Name      | Version | Instructions                                                                            |
+| --------- | ------- | --------------------------------------------------------------------------------------- |
+| Node.js   | 16.9.1  | [Download](https://nodejs.org/en/download/)                                             |
+| npm       | 7.6.0   | Comes bundled with Node - update with `npm i -g npm`                                    |
+| MongoDB   | 4.4.9   | [Atlas Instructions](https://www.freecodecamp.org/news/get-started-with-mongodb-atlas/) |
+| Sentry.io | null    | Instructions coming soon!                                                               |
