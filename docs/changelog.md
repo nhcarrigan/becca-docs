@@ -8,6 +8,11 @@ Becca's updates are deployed every Monday around 10AM Pacific Time.
 
 ## Version 16
 
+### 16.20.2
+
+- Tweaked link detection regex
+- Added more art to the art list
+
 ### 16.20.1
 
 - Dependency updates
