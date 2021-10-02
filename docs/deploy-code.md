@@ -6,7 +6,7 @@ The next step is to invite your instance of Becca to your server. You can use th
 
 Regardless of which method you choose, the link will open a new window allowing you to choose which server you'd like to add Becca to.
 
-Once you have added her to your server, switch back to your terminal and run the command npm start. If you have set the `WH_ID` and `WH_TOKEN` in your environment appropriately, Becca should send a message indicating it is online. Otherwise, you should see the text Activate the Omega! in your terminal, indicating she is online! Now you can try some of the commands to see if she is functioning correctly.
+Once you have added her to your server, switch back to your terminal and run the command npm start. If you have set the `WH_URL` in your environment appropriately, Becca should send a message indicating it is online. Otherwise, you should see the text Activate the Omega! in your terminal, indicating she is online! Now you can try some of the commands to see if she is functioning correctly.
 
 ## Host a Live Version of Becca
 
