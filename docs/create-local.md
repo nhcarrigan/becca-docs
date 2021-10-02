@@ -25,9 +25,9 @@ Congratulations! You are now ready to run the code locally - the start command i
 
 ## Requirements
 
-| Name      | Version | Instructions                                                                            |
-| --------- | ------- | --------------------------------------------------------------------------------------- |
-| Node.js   | 16.9.1  | [Download](https://nodejs.org/en/download/)                                             |
-| npm       | 7.6.0   | Comes bundled with Node - update with `npm i -g npm`                                    |
-| MongoDB   | 4.4.9   | [Atlas Instructions](https://www.freecodecamp.org/news/get-started-with-mongodb-atlas/) |
-| Sentry.io | null    | Instructions coming soon!                                                               |
+| Name      | Version | Instructions                                                                                                        |
+| --------- | ------- | ------------------------------------------------------------------------------------------------------------------- |
+| Node.js   | 16.9.1  | [Download](https://nodejs.org/en/download/)                                                                         |
+| npm       | 7.6.0   | Comes bundled with Node - update with `npm i -g npm`                                                                |
+| MongoDB   | 4.4.9   | [Atlas Instructions](https://www.freecodecamp.org/news/get-started-with-mongodb-atlas/)                             |
+| Sentry.io | null    | [Sentry Instructions](https://www.freecodecamp.org/news/how-to-add-sentry-to-your-node-js-project-with-typescript/) |
