@@ -16,9 +16,12 @@ Becca is configured to send an online notice, and updates on servers it leaves o
 
 ## Link Your Bot Application to Becca's Code
 
-Now that you have a bot application, you'll need to create a file called .env. You can either create the file manually, or copy the `sample.env` file. This file will contain the following variables:
+> [!ATTENTION]
+> All of these values should go in a file specifically named `.env`. Do not modify the `sample.env` file, do not use a name other than `.env`, or your code will not run correctly.
 
-> [!WARNING]
+Now that you have a bot application, you'll need to create a file called `.env`. You can either create the file manually, or copy the `sample.env` file. This file will contain the following variables:
+
+> [!TIP]
 > It is highly recommended that you use the `sample.env` file as a starting point. While some of these values are optional, the code validation will fail if they are not present (or are empty) and will prevent the application from starting. The default values in the `sample.env` will allow the application to load correctly.
 
 These values are necessary for the overall operation of the bot.
@@ -30,6 +33,8 @@ These values are necessary for the overall operation of the bot.
 - `NODE_ENV` (REQUIRED) - This tells Becca whether she is in a development state or production state - the webhook message includes this value. Set this to `development` when working locally, and `production` if you are running your own instance.
 
 - `WH_URL` (REQUIRED) - This is the URL for the Discord webhook. Becca will log when it goes online, connects to the database, and any time a server has an error. **This is obtained from the integrations tab of a Discord channel's settings**
+
+- `CURRENCY_WH` (REQUIRED) - This is the URL for the Discord webhook. Becca will log any activity related to the currency system. **This is obtained from the integrations tab of a Discord channel's settings**
 
 These values are necessary for specific commands.Using an invalid value will prevent certain commands from functioning.
 
