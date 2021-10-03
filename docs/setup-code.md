@@ -42,7 +42,7 @@ These values are necessary for specific commands.Using an invalid value will pre
 
 These values are Discord values required for the slash commands.
 
-- `OWNER_ID` (OPTIONAL) - This tells Becca which Discord account is her owner. She will respond just a little differently to the owner. Leaving this blank WILL lock out some commands. **This is obtained by enabling developer mode in your Discord settings, right clicking on your avatar, and selecting Copy ID**
+- `OWNER_ID` (REQUIRED) - This tells Becca which Discord account is her owner. She will respond just a little differently to the owner. Leaving this blank WILL lock out some commands. **This is obtained by enabling developer mode in your Discord settings, right clicking on your avatar, and selecting Copy ID**
 
 - `CLIENT_ID` (REQUIRED) - This tells Discord which application to attach slash commands to. It should be set to your bot's ID. **This is obtained from the Application tab of your bot's page on the Discord Developer Portal. Copy the Application ID.**
 
