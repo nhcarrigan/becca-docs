@@ -13,6 +13,7 @@
 ## [Contributing to the Bot](/contribute.md)
 
 - [How to Contribute](/how-to-contribute.md)
+- [Developer Certificate of Origin](/developer-certificate.md)
 - [File Structure](/file-structure.md)
 - [Create A Local Instance](/create-local.md)
 - [Set Up The Code](/setup-code.md)
