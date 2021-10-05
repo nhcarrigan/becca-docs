@@ -1,23 +1,30 @@
 # Run Your Version of Becca
 
-The next step is to invite your instance of Becca to your server. You can use the Discord Developer portal to generate an invitation link.
+The next step is to invite your instance of Becca to your server. You can use the Discord Developer portal to generate an invite link.
 
-##Generating the link from dashboard in developer portal
+## Generating the link from dashboard in developer portal
 
-Go to [Application](https://discord.com/developers/applications) in the Discord Developer Portal.
+Go to the [Applications](https://discord.com/developers/applications) page in the Discord Developer Portal.
 
-- Open the new application that you have created in previous step.
+- Open the new application that you created earlier.
 
-- Click on `OAuth2` tab in the left panel.
+- Click on the `OAuth2` tab in the left panel.
 
-- In the scopes section click checkboxes with `applications.commands` (you can't run slash commands without it) and `bot`.
+- In the scopes section, select the checkboxes with `applications.commands` (allows your bot to register slash commands) and `bot`.
 
-- In the bot permissions section click on checkboxes as stated in [set-permissions](./set-permissions.md) file.
+- In the bot permissions section select the checkboxes for the permissions listed on the [set-permissions](./set-permissions.md) page.
 
-You can then copy the invitation link from the scopes section above using the `Copy` button.
->It looks something like
-> `https://discord.com/oauth2/authorize?client_id=CLIENT_ID_HERE&permissions=INTEGER_CODE_HERE&scope=applications.commands%20bot`
+Your choices should look like this:
 
+![image of choices list](https://cdn.nhcarrigan.com/content/discord/becca-permissions.png)
+
+You can then copy the invite link from the scopes section above using the `Copy` button.
+
+It looks something like:
+
+```txt
+https://discord.com/oauth2/authorize?client_id=CLIENT_ID_HERE&permissions=INTEGER_CODE_HERE&scope=applications.commands%20bot
+```
 
 Enter the link in a new window and it will ask you to choose which server you'd like to add your local instance of Becca to.
 
