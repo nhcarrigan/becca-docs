@@ -10,7 +10,7 @@ Once your environment is set up, you need to connect the code to a Discord Bot a
 
 ## Create a Webhook
 
-Becca is configured to send an online notice, and updates on servers it leaves or joins, through a Discord Webhook. In your server, create a new Webhook and copy the URL. 
+Becca is configured to send an online notice, and updates on servers it leaves or joins, through a Discord Webhook. In your server, create a new Webhook and copy the URL.
 
 You can refer to the [official documentation](https://support.discord.com/hc/en-us/articles/228383668-Intro-to-Webhooks) for creating a new Webhook.
 
