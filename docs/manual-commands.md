@@ -6,17 +6,18 @@ Becca's primary command system has been migrated to use Discord's new slash inte
 
 The `/becca` commands relate to information about Becca herself.
 
-| Command   | Parameters | Description                                                                                                  |
-| --------- | ---------- | ------------------------------------------------------------------------------------------------------------ |
-| `about`   | `null`     | Returns details about Becca's bot instance.                                                                  |
-| `art`     | `null`     | Returns an art sample from Becca's gallery.                                                                  |
-| `donate`  | `null`     | Returns information on donating to support Becca's development.                                              |
-| `help`    | `null`     | Provides a series of links explaining how to use Becca.                                                      |
-| `invite`  | `null`     | Provides a link to invite Becca to a server.                                                                 |
-| `ping`    | `null`     | Returns Becca's response time to commands.                                                                   |
-| `profile` | `null`     | Returns a link to Becca's profile page.                                                                      |
-| `updates` | `null`     | Displays the latest changes in Becca's code, the next expected release date, and the link to the change log. |
-| `uptime`  | `null`     | Returns the time since Becca came online.                                                                    |
+| Command   | Parameters   | Description                                                                                                  |
+| --------- | ------------ | ------------------------------------------------------------------------------------------------------------ |
+| `about`   | `null`       | Returns details about Becca's bot instance.                                                                  |
+| `art`     | `null`       | Returns an art sample from Becca's gallery.                                                                  |
+| `donate`  | `null`       | Returns information on donating to support Becca's development.                                              |
+| `help`    | `null`       | Provides a series of links explaining how to use Becca.                                                      |
+| `invite`  | `null`       | Provides a link to invite Becca to a server.                                                                 |
+| `ping`    | `null`       | Returns Becca's response time to commands.                                                                   |
+| `profile` | `null`       | Returns a link to Becca's profile page.                                                                      |
+| `stats`   | `view: Stat` | Provides a leaderboard for the chosen `view`                                                                 |
+| `updates` | `null`       | Displays the latest changes in Becca's code, the next expected release date, and the link to the change log. |
+| `uptime`  | `null`       | Returns the time since Becca came online.                                                                    |
 
 ## Code Commands
 
