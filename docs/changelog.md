@@ -8,6 +8,21 @@ Becca's updates are deployed every Monday around 10AM Pacific Time.
 
 ## Version 16
 
+### 16.22.0
+
+- Added sassy mode
+- Added a command leaderboard for server activity
+
+### 16.21.0
+
+- Added support for nicknames in thanks listener
+- Moved `/becca becca` to `/becca profile`
+- Bumped the experience points grant cooldown to 5 minutes
+- Added the version to `/becca updates`
+- Updated the `/becca donate` embed to use buttons
+- Added cleanup for member data when a member leaves a server
+- Developer experience tweaks
+
 ### 16.20.2
 
 - Tweaked link detection regex
