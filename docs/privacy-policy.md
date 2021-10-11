@@ -40,8 +40,18 @@ Becca collects the following data for the following purposes:
 - `User ID`: Becca uses your Discord user ID to identify you and associate the database record with your account.
 - `Activity`: Becca tracks the number of times you have used an application command (slash command, button, context menu, select menu). Becca does not store any specific information about those commands, just the counts.
 
+### Leaderboard System
+
+- `Server ID`: Becca collects the server ID to identify the server and associate it with the database record.
+- `Server Name`: Becca stores the server name to construct the public leaderboard.
+- `Command Uses`: Becca stores a global count of the command uses in your server.
+
 > [!NOTE]
-> A server's star counts and level leaderboard are available on Becca's dashboard as well as within the server.
+> The following information is also publicly available on Becca's Dashboard:
+>
+> - Server Star counts
+> - Server levels
+> - Server command leaderboard
 
 ## Right to Opt Out
 
