@@ -1,6 +1,6 @@
 {
   "name": "becca-lyria",
-  "version": "16.20.2",
+  "version": "16.22.0",
   "license": "AGPL-3.0-or-later",
   "scripts": {
     "lint": "markdownlint ./docs/**/*.md",
