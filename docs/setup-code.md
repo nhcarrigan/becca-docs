@@ -8,6 +8,14 @@ Once your environment is set up, you need to connect the code to a Discord Bot a
 
 - On the left, select "Bot", then create a new bot.
 
+## Bot Settings
+
+After creating your bot application, you'll need to enable the `Server Members Intent` option to receive the `GUILD_MEMBERS` intent. This is required for Becca's functionality, and the bot will not load if this is disabled.
+
+Additionally, you may wish to disable the `Public Bot` option to prevent other people from being able to invite your test application.
+
+![Intent Settings](https://cdn.nhcarrigan.com/content/discord/intents.png)
+
 ## Create a Webhook
 
 Becca is configured to send an online notice, and updates on servers it leaves or joins, through a Discord Webhook. In your server, create a new Webhook and copy the URL.
