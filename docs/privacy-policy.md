@@ -14,6 +14,13 @@ Data is stored in a MongoDB database. The database is secured to prevent externa
 
 Becca collects the following data for the following purposes:
 
+### Server Command Tracking
+
+- `Server ID`: Becca uses the server ID to associate the data with your server.
+- `Server Name`: Becca uses the server name to render the data.
+- `Server Avatar`: Becca uses the server avatar to render the data.
+- `Command Counts`: Becca keeps a global count of the number of times any command has been used in your server.
+
 ### Level System
 
 - `User ID`: Becca uses your Discord user ID to identify you and associate the database record with your account.
@@ -52,6 +59,7 @@ Becca collects the following data for the following purposes:
 > - Server Star counts
 > - Server levels
 > - Server command leaderboard
+> - Server global command usage
 
 ## Right to Opt Out
 
