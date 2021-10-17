@@ -11,6 +11,7 @@ The `/becca` commands relate to information about Becca herself.
 | `about`   | `null`       | Returns details about Becca's bot instance.                                                                  |
 | `art`     | `null`       | Returns an art sample from Becca's gallery.                                                                  |
 | `donate`  | `null`       | Returns information on donating to support Becca's development.                                              |
+| `emote`   | `null`       | Provides a random Becca emote.                                                                               |
 | `help`    | `null`       | Provides a series of links explaining how to use Becca.                                                      |
 | `invite`  | `null`       | Provides a link to invite Becca to a server.                                                                 |
 | `ping`    | `null`       | Returns Becca's response time to commands.                                                                   |
