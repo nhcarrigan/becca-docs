@@ -4,7 +4,21 @@ Here you can see changes made across each version of Becca.
 
 Becca's updates are deployed every Monday around 10AM Pacific Time.
 
-[Version 16](#version-16) | [Version 15](#version-15) | [Version 14](#version-14) | [Version 13](#version-13) | [Version 12](#version-12) | [Version 11](#version-11) | [Version 10](#version-10) | [Version 9](#version-9)
+[Version 17](#version-17) | [Version 16](#version-16) | [Version 15](#version-15) | [Version 14](#version-14) | [Version 13](#version-13) | [Version 12](#version-12) | [Version 11](#version-11) | [Version 10](#version-10) | [Version 9](#version-9)
+
+## Version 17
+
+### 17.0.0
+
+- Refactored the type definitions
+- Added tests to assert database schemas are accurate
+- Separated the logging into it's own config, allowing for more granular control over event logs
+- Added an endpoint to the server to access global stats
+- Migrated the link detection into a separate automod system
+- Added profanity filter to the automod system
+- Updated the hash generation for the `/becca updates` command to generate once on load
+- Added a `/becca emote` command to return a random emote
+- Merged the thanks logic into sass mode, removing the `thanks` config.
 
 ## Version 16
 
