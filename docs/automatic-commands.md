@@ -24,6 +24,6 @@ There are a few messages that Becca will automatically send when certain conditi
 
 - `Server Command Usage` - Becca keeps count of the number of commands used in a server, and displays the top 10 servers by command usage on a leaderboard.
 
-- `Automoderation System` - Becca can detect links and profanity within messages and remove them, to keep your server safe.
+- `Automoderation System` - Becca can detect links and profanity within messages and remove them, to keep your server safe. If Becca removes someone's message, she will attempt to send them a DM with the message content so they can update it and try again.
 
 - `Trigger System` - Becca looks for messages that match a specified trigger, and will send the linked response if a match is found. Note that these matches must be exact, so a trigger for `hello world` will match `hello world`, but not `Hello World` or `hello world it's me`.
