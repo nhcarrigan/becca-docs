@@ -2,11 +2,21 @@
 
 Here you can see changes made across each version of Becca.
 
-Becca's updates are deployed every Monday around 10AM Pacific Time.
+Becca's updates are deployed every Sunday around 8AM Pacific Time.
 
 [Version 17](#version-17) | [Version 16](#version-16) | [Version 15](#version-15) | [Version 14](#version-14) | [Version 13](#version-13) | [Version 12](#version-12) | [Version 11](#version-11) | [Version 10](#version-10) | [Version 9](#version-9)
 
 ## Version 17
+
+### 17.1.0
+
+- Updated sass mode and default responses to use arrays, allowing for more randomised responses
+- Also added Becca emotes to those responses
+- Loaded three new emotes into slots list
+- Updated automod system to DM user with their message if it's deleted
+- Added server endpoint and database logic to track top.gg votes
+- Changed update schedule to be Sunday instead of Monday
+- Added new trigger system
 
 ### 17.0.0
 
