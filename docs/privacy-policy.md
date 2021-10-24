@@ -21,6 +21,12 @@ Becca collects the following data for the following purposes:
 - `Server Avatar`: Becca uses the server avatar to render the data.
 - `Command Counts`: Becca keeps a global count of the number of times any command has been used in your server.
 
+### Vote Tracking
+
+- `User ID`: Becca uses your Discord user ID to identify you and to associate the data with your account.
+- `Server Votes`: Becca counts the number of times you have voted for our support server on top.gg.
+- `Bot Votes`: Becca counts the number of times you have voted for her on top.gg.
+
 ### Level System
 
 - `User ID`: Becca uses your Discord user ID to identify you and associate the database record with your account.
