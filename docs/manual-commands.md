@@ -153,3 +153,13 @@ The `/nhcarrigan` commands are locked to the bot's owner ID, and are used to man
 | `serverdata` | `server: string`               | Returns detailed information on the server with ID matching `server`. Helpful for identifying suspicious server.    |
 | `unregister` | `command: string`              | Becca will unregister a specific command, deleting it from the list.                                                |
 | `viewslash`  | `null`                         | Becca will fetch all current available commands.                                                                    |
+
+## triggers Commands
+
+The `/triggers` commands manage your server's specific triggers.
+
+| Command  | Parameters                            | Description                         |
+| -------- | ------------------------------------- | ----------------------------------- |
+| `add`    | `trigger: string`, `response: string` | Adds a new trigger to your server.  |
+| `remove` | `trigger: string`                     | Removes a trigger from your server. |
+| `view`   | `null`                                | Shows all triggers on your server.  |
