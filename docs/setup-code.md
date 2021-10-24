@@ -75,3 +75,9 @@ These values are optional and will fall back to standard Unicode characters if n
 This is required for the Sentry logging.
 
 - `SENTRY_DSN` (REQUIRED) - This enables external logging through Sentry.io - you will need to set up and configure a project there. **This is obtained from the instructions on the previous page.**
+
+These values are used for the top.gg vote tracking.
+
+- `TOPGG_PASSWORD` - This is the password you would provide to the top.gg webhook for authentication. This can be set to any string you'd like, but if you intend to set up an actual webhook you should use a secure password.
+
+- `VOTE_CHANNEL_ID` - This should be the ID of the channel in the `HOME_GUILD_ID` guild where Becca should send vote notifications.
