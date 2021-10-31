@@ -68,7 +68,7 @@ This page documents former features which have been deprecated, including the ve
 
 - `roll` command _(deprecated in 14.0.0)_ - Extraneous, lack of use.
 
-- `orbit` command _(deprecated in 16.0.0)_ - Privacy concerns.
+- ~~`orbit` command _(deprecated in 16.0.0)_ - Privacy concerns.~~ Restored in 17.2.0
 
 - `guess` command _(deprecated in 16.0.0)_ - Did not migrate well to slash commands.
 
@@ -80,4 +80,4 @@ These features have been temporarily removed, but are planned for a future versi
 
 - `wiki` command _(deprecated in 14.0.0)_ - May restore in a future version using the Wikipedia API.
 
-- `habitica` command _(deprecated in 14.0.0)_ - Removed due to cognitive complexity, may restore with a new approach.
+- ~~`habitica` command _(deprecated in 14.0.0)_ - Removed due to cognitive complexity, may restore with a new approach.~~ Restored in 17.2.0
