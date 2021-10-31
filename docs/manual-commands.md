@@ -156,7 +156,7 @@ The `/nhcarrigan` commands are locked to the bot's owner ID, and are used to man
 
 ## triggers Commands
 
-The `/triggers` commands manage your server's specific triggers.
+The `/triggers` commands manage your server's specific triggers. These commands require permission to manage the server.
 
 | Command  | Parameters                            | Description                         |
 | -------- | ------------------------------------- | ----------------------------------- |
