@@ -83,6 +83,15 @@ The `/currency` commands are used to earn [BeccaCoin](/currency.md), which can b
 | `slots`  | `wager: number`  | Play a game of slots for double or nothing on your `wager`.                                                         |
 | `weekly` | `null`           | Generates your weekly currency reward.                                                                              |
 
+## Emote Commands
+
+The `/emote` commands allow you to perform an emote action on another user. The emotes a user has received is tracked.
+
+| Command | Parameters                     | Description                                  |
+| ------- | ------------------------------ | -------------------------------------------- |
+| `use`   | `emote: Choices`, `user: User` | Uses the chosen `emote` on the given `user`. |
+| `view`  | `null`                         | Shows a count of the emotes you've received. |
+
 ## Games Commands
 
 The `/games` commands are fun and silly commands to add a bit of charm to your community.
