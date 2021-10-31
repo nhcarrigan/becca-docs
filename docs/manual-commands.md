@@ -123,6 +123,7 @@ The `/misc` commands are things that did not fit in to any other category.
 
 | Command       | Parameters        | Description                                                                                            |
 | ------------- | ----------------- | ------------------------------------------------------------------------------------------------------ |
+| `orbit`       | `null`            | Returns the Orbit leaderboard for our community, and links to join the community.                      |
 | `permissions` | `null`            | Confirms that Becca has the correct permissions in the server and in the channel this command is used. |
 | `space`       | `date?: string`   | Returns the NASA Astronomy Photo of the Day, either from today or `date` (formatted as `YYYY-MM-DD`).  |
 | `username`    | `length?: number` | Generates a DigitalOcean themed username with a max length of `number` or 30.                          |
