@@ -59,6 +59,12 @@ Becca collects the following data for the following purposes:
 - `Server Name`: Becca stores the server name to construct the public leaderboard.
 - `Command Uses`: Becca stores a global count of the command uses in your server.
 
+### Emote System
+
+- `User ID`: Becca collects your Discord user ID to identify you and associate the database record with your account.
+- `User Name`: Becca stores your latest username and discriminator to render the data.
+- `Emote Counts`: Becca keeps a count of the number of emotes you've received.
+
 > [!NOTE]
 > The following information is also publicly available on Becca's Dashboard:
 >
