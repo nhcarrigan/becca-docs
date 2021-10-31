@@ -8,6 +8,18 @@ Becca's updates are deployed every Sunday around 8AM Pacific Time.
 
 ## Version 17
 
+### 17.2.0
+
+- Modified the `/triggers` commands to require the `MANAGE_SERVER` permission.
+- Restored the previously deprecated `habitica` command as `/games habitica`.
+- Restored the previously deprecated `orbit` command as `/misc orbit`.
+- Added the `/emote` commands.
+- Modified the `/community schedule` command to restrict pings, avoiding a potential exploit.
+- Updated the top.gg system to send reminders every 12 hours.
+- Updated the `messageEdit` event to run the sass mode, automod, and triggers listeners.
+- Updated the opt out system to include recently added data tracking.
+- Added new art!
+
 ### 17.1.0
 
 - Updated sass mode and default responses to use arrays, allowing for more randomised responses
