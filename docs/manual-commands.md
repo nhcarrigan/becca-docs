@@ -87,14 +87,15 @@ The `/currency` commands are used to earn [BeccaCoin](/currency.md), which can b
 
 The `/games` commands are fun and silly commands to add a bit of charm to your community.
 
-| Command  | Parameters     | Description                                                                                                                                        |
-| -------- | -------------- | -------------------------------------------------------------------------------------------------------------------------------------------------- |
-| `fact`   | `null`         | Returns a random fun fact.                                                                                                                         |
-| `joke`   | `null`         | Returns a random joke.                                                                                                                             |
-| `mtg`    | `card: string` | Fetches and displays information on the given Magic: The Gathering `card`.                                                                         |
-| `slime`  | `null`         | Gives you a random slime-themed nickname.                                                                                                          |
-| `sus`    | `null`         | Selects an Among Us colour and declares it sus!                                                                                                    |
-| `trivia` | `null`         | Stars a trivia game. Players will have 30 seconds to select an answer using the buttons. At the end of the timer, Becca will announce the winners. |
+| Command    | Parameters        | Description                                                                                                                                         |
+| ---------- | ----------------- | --------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `fact`     | `null`            | Returns a random fun fact.                                                                                                                          |
+| `habitica` | `id: Habitica ID` | Returns information on the provided user's Habitica progress. Note that `id` is the user's ID (available in their profile URL), NOT their username. |
+| `joke`     | `null`            | Returns a random joke.                                                                                                                              |
+| `mtg`      | `card: string`    | Fetches and displays information on the given Magic: The Gathering `card`.                                                                          |
+| `slime`    | `null`            | Gives you a random slime-themed nickname.                                                                                                           |
+| `sus`      | `null`            | Selects an Among Us colour and declares it sus!                                                                                                     |
+| `trivia`   | `null`            | Stars a trivia game. Players will have 30 seconds to select an answer using the buttons. At the end of the timer, Becca will announce the winners.  |
 
 ## Log Commands
 
