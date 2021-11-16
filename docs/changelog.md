@@ -8,6 +8,19 @@ Becca's updates are deployed every Sunday around 8AM Pacific Time.
 
 ## Version 17
 
+### 17.4.1
+
+- Patched a broken query related to the new level schema.
+- Added a donation CTA to the embeds.
+
+### 17.4.0
+
+- Overhauled the level system to be more scalable, maintaining individual documents for each user in a guild.
+
+### 17.3.0
+
+- Added grafana logging to capture usage metrics
+
 ### 17.2.0
 
 - Modified the `/triggers` commands to require the `MANAGE_SERVER` permission.
