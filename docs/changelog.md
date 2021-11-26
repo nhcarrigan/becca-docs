@@ -8,6 +8,11 @@ Becca's updates are deployed every Sunday around 8AM Pacific Time.
 
 ## Version 17
 
+### 17.4.2
+
+- Moved from grafana to PM2 for logging
+- Patched a bug in the `/currency weekly` command
+
 ### 17.4.1
 
 - Patched a broken query related to the new level schema.
