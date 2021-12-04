@@ -8,6 +8,14 @@ Becca's updates are deployed every Sunday around 8AM Pacific Time.
 
 ## Version 17
 
+### 17.5.0
+
+- Added link buttons to many of Becca's embeds, improving usability especially on mobile.
+
+### 17.4.3
+
+- Updated the denied TLDs in the link regex.
+
 ### 17.4.2
 
 - Moved from grafana to PM2 for logging
