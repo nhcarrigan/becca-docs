@@ -4,7 +4,7 @@ There are a few steps you will need in order to set up a local instance of Becca
 
 ## Clone the GitHub Repository
 
-Before doing anything else, you have to make sure you have a GitHub Account. If you do not have one, we recommend signing up for free here.
+Before doing anything else, you have to make sure you have a GitHub Account. If you do not have one, we recommend signing up for free [here](https://github.com/signup).
 
 Once you have signed in to GitHub, navigate to our [GitHub repository](https://github.com/BeccaLyria/discord-bot) and either fork the repository into your own account or download the files to your computer.
 
