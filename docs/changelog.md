@@ -8,6 +8,14 @@ Becca's updates are deployed every Sunday around 8AM Pacific Time.
 
 ## Version 17
 
+### 17.6.1
+
+- Patched an issue in the emote-only regex.
+
+### 17.6.0
+
+- Added an emote-only config to lock channels to emote only.
+
 ### 17.5.0
 
 - Added link buttons to many of Becca's embeds, improving usability especially on mobile.
