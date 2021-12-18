@@ -25,7 +25,7 @@ The `/becca` commands relate to information about Becca herself.
 | `emote`   | `null`       | Provides a random Becca emote.                                                                               |
 | `help`    | `null`       | Provides a series of links explaining how to use Becca.                                                      |
 | `invite`  | `null`       | Provides a link to invite Becca to a server.                                                                 |
-| `ping`    | `null`       | Returns Becca's response time to commands.                                                                   |
+| `ping`    | `null`       | Returns Becca's response time to commands, the websocket latency, and the database ping.                     |
 | `profile` | `null`       | Returns a link to Becca's profile page.                                                                      |
 | `stats`   | `view: Stat` | Provides a leaderboard for the chosen `view`                                                                 |
 | `updates` | `null`       | Displays the latest changes in Becca's code, the next expected release date, and the link to the change log. |
