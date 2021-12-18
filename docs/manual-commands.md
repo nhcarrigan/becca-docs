@@ -120,11 +120,12 @@ The `/log` commands manage Becca's logging system, which tracks specific Discord
 
 The `/manage` commands help with managing your community.
 
-| Command      | Parameters                                                | Description                                                                                                                      |
-| ------------ | --------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------- |
-| `resetlevel` | `null`                                                    | Resets the level leaderboard, clearing all data.                                                                                 |
-| `resetstars` | `null`                                                    | Resets the star counts, clearing all data.                                                                                       |
-| `suggestion` | `action: approve \| deny`, `id: string`, `reason: string` | Updates the suggestion embed with the given message `id`, marking it with the `action` and stating the `reason` for that action. |
+| Command      | Parameters                                                  | Description                                                                                                                      |
+| ------------ | ----------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------- |
+| `resetlevel` | `null`                                                      | Resets the level leaderboard, clearing all data.                                                                                 |
+| `resetstars` | `null`                                                      | Resets the star counts, clearing all data.                                                                                       |
+| `suggestion` | `action: approve \| deny`, `id: string`, `reason: string`   | Updates the suggestion embed with the given message `id`, marking it with the `action` and stating the `reason` for that action. |
+| `xpmodify`   | `action: add \| remove`, `user: User`, `adjustment: number` | Either `add` or `remove` the specified `adjustment` to the XP of the given `user`.                                               |
 
 ## Misc Commands
 
