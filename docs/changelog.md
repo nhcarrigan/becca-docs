@@ -8,6 +8,14 @@ Becca's updates are deployed every Sunday around 8AM Pacific Time.
 
 ## Version 17
 
+### 17.7.0
+
+- Added `.ly` to the link detection regex.
+- Added new `/manage xpmodify` command.
+- Limited `/leaderboard` server endpoint to the top 100 users.
+- Updated `/becca ping` command to show websocket latency and database ping.
+- Fixed issue in test assertion message.
+
 ### 17.6.1
 
 - Patched an issue in the emote-only regex.
