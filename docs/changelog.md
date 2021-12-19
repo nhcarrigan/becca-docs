@@ -15,6 +15,7 @@ Becca's updates are deployed every Sunday around 8AM Pacific Time.
 - Limited `/leaderboard` server endpoint to the top 100 users.
 - Updated `/becca ping` command to show websocket latency and database ping.
 - Fixed issue in test assertion message.
+- Added developer avatar to donation CTAs for clearer branding.
 
 ### 17.6.1
 
