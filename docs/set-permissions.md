@@ -34,7 +34,12 @@ By default, when you invite Becca to your server she will ask for the following 
 
 - Manage Nicknames
 
+- Moderate Members
+
 All of these permissions are necessary for her features to work. Disabling any of these will cause unexpected errors to occur.
+
+> [!NOTE]
+> The permissions for interaction responses (slash commands) is a bit tricky, and in some cases the permissions applied to your @everyone role take effect. A known instance of this is that if @everyone is denied the `Use External Emojis` permission, then Becca's attempts to use external emojis will fail regardless of her permissions level.
 
 ## Integration Role
 
@@ -45,6 +50,8 @@ In this case, the role would be named `Becca Lyria`. Any changes to the permissi
 ## Role Hierarchy
 
 One of Becca's features is a configurable list of roles your server members can assign/unassign for themselves. In order for Becca to be able to manage these roles, the integration role must be _higher_ than **all** of the self-assignable roles in your server permissions list.
+
+Becca must also be higher than any roles you want to assign to members that she should be able to moderate (kick, ban, etc).
 
 ## Channel Overrides
 
