@@ -141,16 +141,16 @@ The `/misc` commands are things that did not fit in to any other category.
 
 ## Moderation Commands
 
-The `/moderation` commands provide tools for moderating your community. These will all log to your moderation log channel.
+The `/moderation` commands provide tools for moderating your community. These will all log to your moderation log channel. When a user is the target of a moderation action, Becca will attempt to DM them to notify them of the action, with the `reason` that is provided.
 
-| Command     | Parameters                     | Description                                                                                                       |
-| ----------- | ------------------------------ | ----------------------------------------------------------------------------------------------------------------- |
-| `ban`       | `user: User`, `reason: string` | Bans the `user` from the server for the given `reason`.                                                           |
-| `kick`      | `user: User`, `reason: string` | Kicks the `user` fromt he server for the given `reason`.                                                          |
-| `mute`      | `user: User`, `reason: string` | Applies the muted role to the `user` for the given `reason`, if the muted role is set.                            |
-| `unmute`    | `user: User`, `reason: string` | Removes the muted role from the `user` for the given `reason`, if the muted role is set.                          |
-| `warn`      | `user: User`, `reason: string` | Issues a warning to the `user` for the given `reason`, and adds that warning to their record.                     |
-| `warncount` | `user: User`                   | Returns the total number of warnings the `user` has received in your server, and the reason for the last warning. |
+| Command     | Parameters                                                         | Description                                                                                                          |
+| ----------- | ------------------------------------------------------------------ | -------------------------------------------------------------------------------------------------------------------- |
+| `ban`       | `user: User`, `reason: string`                                     | Bans the `user` from the server for the given `reason`.                                                              |
+| `kick`      | `user: User`, `reason: string`                                     | Kicks the `user` fromt he server for the given `reason`.                                                             |
+| `mute`      | `user: User`, `duration: number`, `unit: string`, `reason: string` | Issues a Discord timeout to the `user` for the given `duration` in `unit`s (i.e. 3 days), for the provided `reason`. |
+| `unmute`    | `user: User`, `reason: string`                                     | Removes the Discord timeout on the `user` for the given `reason`.                                                    |
+| `warn`      | `user: User`, `reason: string`                                     | Issues a warning to the `user` for the given `reason`, and adds that warning to their record.                        |
+| `warncount` | `user: User`                                                       | Returns the total number of warnings the `user` has received in your server, and the reason for the last warning.    |
 
 ## nhcarrigan Commands
 
