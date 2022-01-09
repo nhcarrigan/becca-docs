@@ -8,6 +8,28 @@ Becca's updates are deployed every Sunday around 8AM Pacific Time.
 
 ## Version 17
 
+### 17.9.0
+
+- Updated the link detection regex to capture additional 2-letter TLDs.
+- Overhauled the link detection system to ignore multi-line codeblocks (too many false positives, with the way code is written) and catch links within spoilers.
+- The DM sent when a user's message is caught by the link system now includes the links that were detected.
+- Enabled the bot votes leaderboard, since Becca is now on top.gg
+- Updated the bookmark command to no longer send the message content, addressing a potential privacy concern.
+- Updated the message edit event to generate diffs instead of sending the full message content.
+
+### 17.8.0
+
+- Updated the `/games habitica` command to no longer send an achievements embed if the user is not found.
+- Migrated the `/mod mute` and `/mod unmute` commands to use the new Discord timeout feature.
+- Removed the `/nhcarrigan list`, `/nhcarrigan serverinfo`, and `/nhcarrigan leave` commands, as these were no longer needed with Becca being verified.
+- Added a step to send a DM to a user when they are the target of a moderation action.
+- Added a new `/mod history` command, tracking and displaying how many moderation actions a user has received.
+- Updated the `/misc permissions` command to ensure all of the latest required permissions were present.
+- Added a `/becca adventure` command to return images from Becca's adventures.
+- Updated the `/community leaderboard`, `/community starcounts` and `/becca stats` commands to use the new table generator.
+- Added the ability for users to opt-out of the emote commands.
+- Added `/becca privacy` to create another way to quickly get a link to the privacy policy.
+
 ### 17.7.0
 
 - Added `.ly` to the link detection regex.
