@@ -26,6 +26,7 @@ The `/config set` slash command will allow you to configure Becca's features and
 | Sass Mode              | `on \| off`                    | This enables specific sassy responses from Becca when the content of a message matches specific conditions.                                                                                                |
 | Self-Assignable Roles  | `role: Role`                   | Adds or removes the `role` to the list that members can assign themselves.                                                                                                                                 |
 | Suggestion Channel     | `channel: Channel`             | Sets the channel where suggestions made with the `suggest` command are sent.                                                                                                                               |
+| Ban Appeal Config      | `appeal_link: string`          | You can provide a link to a Google Form (or another service) for appealing a ban. This link is included in the DM sent to the banned user by Becca. 
 
 ## Automod Settings
 
