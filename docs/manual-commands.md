@@ -22,6 +22,7 @@ The `/becca` commands relate to information about Becca herself.
 | `about`     | `null`       | Returns details about Becca's bot instance.                                                                  |
 | `adventure` | `null`       | Returns an image from one of Becca's adventures.                                                             |
 | `art`       | `null`       | Returns an art sample from Becca's gallery.                                                                  |
+| `contact`   | `null`       | Provides links to contact the development team.                                                              |
 | `donate`    | `null`       | Returns information on donating to support Becca's development.                                              |
 | `emote`     | `null`       | Provides a random Becca emote.                                                                               |
 | `help`      | `null`       | Provides a series of links explaining how to use Becca.                                                      |
