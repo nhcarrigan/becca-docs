@@ -8,6 +8,16 @@ Becca's updates are deployed every Sunday around 8AM Pacific Time.
 
 ## Version 17
 
+### 17.10.0
+
+- Added `/becca contact` command.
+- Added step to sort subcommands so they appear alphabetical in Discord's UI.
+- Fixed broken link in `/becca adventure` command.
+- Added ban appeal config option.
+- Added timeout to automatically delete link detection message.
+- Emote-only channel now works on message edits.
+- Added a reaction role system, with `/reactionrole` commands.
+
 ### 17.9.0
 
 - Updated the link detection regex to capture additional 2-letter TLDs.
