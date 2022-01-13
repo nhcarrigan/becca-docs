@@ -166,6 +166,19 @@ The `/nhcarrigan` commands are locked to the bot's owner ID, and are used to man
 | `unregister` | `command: string`              | Becca will unregister a specific command, deleting it from the list.                                                |
 | `viewslash`  | `null`                         | Becca will fetch all current available commands.                                                                    |
 
+## reactionrole Commands
+
+The `/reactionrole` system allows you to set up reaction roles, a common feature among Discord bots. You specify a message (via the message link), emoji, and role to assign, and when someone reacts to that message Becca will give them the role. If they remove the reaction, Becca will remove the role.
+
+> [!WARNING]
+> Our reaction role system is currently in a public beta. The system may change at any time, and data may be removed as necessary. If you experience any issues, let us know in our [support server](https://chat.nhcarrigan.com).
+
+| Command  | Parameters                                         | Description                               |
+| -------- | -------------------------------------------------- | ----------------------------------------- |
+| `add`    | `message: string`, `emoji: string`, `role: string` | Adds a reaction role to the message.      |
+| `list`   | `message: string`                                  | Lists all reaction roles for the message. |
+| `remove` | `message: string`, `emoji: string`, `role: string` | Removes a reaction role from the message. |
+
 ## triggers Commands
 
 The `/triggers` commands manage your server's specific triggers. These commands require permission to manage the server.
