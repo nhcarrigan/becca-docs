@@ -19,6 +19,7 @@
 - [Set Up The Code](/setup-code.md)
 - [Deploy the Code](/deploy-code.md)
 - [Create a Pull Request](/creating-pr.md)
+- [Translating Becca](/translation.md)
 
 ## [Miscellaneous Documentation](/misc.md)
 
