@@ -22,6 +22,7 @@ The `/becca` commands relate to information about Becca herself.
 | `about`     | `null`       | Returns details about Becca's bot instance.                                                                  |
 | `adventure` | `null`       | Returns an image from one of Becca's adventures.                                                             |
 | `art`       | `null`       | Returns an art sample from Becca's gallery.                                                                  |
+| `contact`   | `null`       | Provides links to contact the development team.                                                              |
 | `donate`    | `null`       | Returns information on donating to support Becca's development.                                              |
 | `emote`     | `null`       | Provides a random Becca emote.                                                                               |
 | `help`      | `null`       | Provides a series of links explaining how to use Becca.                                                      |
@@ -164,6 +165,19 @@ The `/nhcarrigan` commands are locked to the bot's owner ID, and are used to man
 | `register`   | `null`                         | Becca will re-register all application commands. Use this when a command's `data` has been changed (not the `run`). |
 | `unregister` | `command: string`              | Becca will unregister a specific command, deleting it from the list.                                                |
 | `viewslash`  | `null`                         | Becca will fetch all current available commands.                                                                    |
+
+## reactionrole Commands
+
+The `/reactionrole` system allows you to set up reaction roles, a common feature among Discord bots. You specify a message (via the message link), emoji, and role to assign, and when someone reacts to that message Becca will give them the role. If they remove the reaction, Becca will remove the role.
+
+> [!WARNING]
+> Our reaction role system is currently in a public beta. The system may change at any time, and data may be removed as necessary. If you experience any issues, let us know in our [support server](https://chat.nhcarrigan.com).
+
+| Command  | Parameters                                         | Description                               |
+| -------- | -------------------------------------------------- | ----------------------------------------- |
+| `add`    | `message: string`, `emoji: string`, `role: string` | Adds a reaction role to the message.      |
+| `list`   | `message: string`                                  | Lists all reaction roles for the message. |
+| `remove` | `message: string`, `emoji: string`, `role: string` | Removes a reaction role from the message. |
 
 ## triggers Commands
 
