@@ -4,7 +4,16 @@ Here you can see changes made across each version of Becca.
 
 Becca's updates are deployed every Sunday around 8AM Pacific Time.
 
-[Version 17](#version-17) | [Version 16](#version-16) | [Version 15](#version-15) | [Version 14](#version-14) | [Version 13](#version-13) | [Version 12](#version-12) | [Version 11](#version-11) | [Version 10](#version-10) | [Version 9](#version-9)
+[Version 18](#version-18) | [Version 17](#version-17) | [Version 16](#version-16) | [Version 15](#version-15) | [Version 14](#version-14) | [Version 13](#version-13) | [Version 12](#version-12) | [Version 11](#version-11) | [Version 10](#version-10) | [Version 9](#version-9)
+
+## Version 18
+
+- Fixed a bug in the ban appeal logic
+- Improved code block detection in the link system
+- Improved link detection
+- Added internationalisation infrastructure
+- Moved `/reactionrole` commands out of beta
+- Added `/becca translators` command
 
 ## Version 17
 
