@@ -30,6 +30,6 @@
 
 ---
 
-© 2021 [Nicholas Carrigan](https://www.nhcarrigan.com)
+© 2021 [Naomi Carrigan](https://www.nhcarrigan.com)
 
 [Webpage art by Moonlight](https://www.instagram.com/moonlightkcreations/)
