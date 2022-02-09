@@ -8,6 +8,13 @@ Becca's updates are deployed every Sunday around 8AM Pacific Time.
 
 ## Version 18
 
+### 18.1.0
+
+- Migrated `/reactionrole` system from reactions to buttons.
+- Fixed bug with `/currency 21` buttons not functioning.
+
+### 18.0.0
+
 - Fixed a bug in the ban appeal logic
 - Improved code block detection in the link system
 - Improved link detection

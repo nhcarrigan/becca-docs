@@ -169,13 +169,11 @@ The `/nhcarrigan` commands are locked to the bot's owner ID, and are used to man
 
 ## reactionrole Commands
 
-The `/reactionrole` system allows you to set up reaction roles, a common feature among Discord bots. You specify a message (via the message link), emoji, and role to assign, and when someone reacts to that message Becca will give them the role. If they remove the reaction, Becca will remove the role.
+The `/reactionrole` system allows you to set up reaction roles, a common feature among Discord bots. Becca's approach, however, is a bit different. Rather than using emoji, Becca uses Discord's message buttons to assign roles. This allows her to offer faster and more reliable response times.
 
-| Command  | Parameters                                         | Description                               |
-| -------- | -------------------------------------------------- | ----------------------------------------- |
-| `add`    | `message: string`, `emoji: string`, `role: string` | Adds a reaction role to the message.      |
-| `list`   | `message: string`                                  | Lists all reaction roles for the message. |
-| `remove` | `message: string`, `emoji: string`, `role: string` | Removes a reaction role from the message. |
+| Command  | Parameters                                            | Description                                                                                                                                                               |
+| -------- | ----------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `create` | `channel: Channel`, `title: string`, `roles: ...Role` | Creates a message in the given `channel`, using the `title` as the content. Takes up to 20 role parameters, and creates a button for each one so users can add/remove it. |
 
 ## triggers Commands
 
