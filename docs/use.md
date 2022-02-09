@@ -43,3 +43,9 @@ This page documents the level scale Becca uses in the levelling system.
 Becca's currency system allows users to redeem rewards on our support server.
 
 [View Guide](/currency-system.md)
+
+## Owner Commands
+
+Becca has specific commands only available to Naomi, documented here for transparency.
+
+[View Commands](/owner-commands.md)

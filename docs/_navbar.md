@@ -9,6 +9,7 @@
 - [Context Commands](/context-commands.md)
 - [Level Scale](/level-scale.md)
 - [Currency System](/currency.md)
+- [Owner Commands](/owner-commands.md)
 
 ## [Contributing to the Bot](/contribute.md)
 

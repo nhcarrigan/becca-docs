@@ -30,6 +30,15 @@ The `/config set` slash command will allow you to configure Becca's features and
 
 ## Automod Settings
 
+The `/automod antiphish` command allows you to enable Becca's anti-phishing system. This system detects when users send a scam link and takes action accordingly.
+
+| Action           | Description                                                   |
+| ---------------- | ------------------------------------------------------------- |
+| `ban`            | The user will be banned from the server.                      |
+| `kick`           | The user will be kicked from the server.                      |
+| `mute`           | The user will be muted for 24 hours.                          |
+| `none` (default) | No action will be taken - this disables the antiphish system. |
+
 The `/automod set` command will allow you to configure Becca's automatic moderation.
 
 The auto-moderation system will not run on any users who have the `Manage Messages` permission.

@@ -6,12 +6,13 @@ Becca's primary command system has been migrated to use Discord's new slash inte
 
 The `/automod` commands are used to manage Becca's automatic moderation system.
 
-| Command  | Parameters                          | Description                                        |
-| -------- | ----------------------------------- | -------------------------------------------------- |
-| `reset`  | `setting: Setting`                  | Resets the specified setting to its default value. |
-| `set`    | `setting: Setting, value: Value`    | Sets the specified setting to the specified value. |
-| `toggle` | `feature: Setting, enabled: on/off` | Toggles the automod feature on or off..            |
-| `view`   | `setting: Setting`                  | Views the current value of the specified setting.  |
+| Command     | Parameters                            | Description                                                |
+| ----------- | ------------------------------------- | ---------------------------------------------------------- |
+| `antiphish` | `action: ban \| kick \| mute \| none` | Sets the action to take when a user posts a phishing link. |
+| `reset`     | `setting: Setting`                    | Resets the specified setting to its default value.         |
+| `set`       | `setting: Setting, value: Value`      | Sets the specified setting to the specified value.         |
+| `toggle`    | `feature: Setting, enabled: on/off`   | Toggles the automod feature on or off..                    |
+| `view`      | `setting: Setting`                    | Views the current value of the specified setting.          |
 
 ## Becca Commands
 
@@ -76,7 +77,7 @@ The `/config` commands are used to manage the [server settings](/configure-serve
 
 ## Currency Commands
 
-The `/currency` commands are used to earn [BeccaCoin](/currency.md), which can be exchanged for rewards in our [support server](https://links.nhcarrigan.com/discord).
+The `/currency` commands are used to earn [BeccaCoin](/currency.md), which can be exchanged for rewards in our [support server](https://links.nhcarrigan.com/discord). Joining our support server also allows users to receive reminders when they can claim their weekly and daily rewards.
 
 | Command  | Parameters       | Description                                                                                                         |
 | -------- | ---------------- | ------------------------------------------------------------------------------------------------------------------- |
@@ -156,26 +157,13 @@ The `/moderation` commands provide tools for moderating your community. These wi
 | `unmute`  | `user: User`, `reason: string`                                     | Removes the Discord timeout on the `user` for the given `reason`.                                                    |
 | `warn`    | `user: User`, `reason: string`                                     | Issues a warning to the `user` for the given `reason`, and adds that warning to their record.                        |
 
-## nhcarrigan Commands
-
-The `/nhcarrigan` commands are locked to the bot's owner ID, and are used to manage the operations of the bot.
-
-| Command      | Parameters                     | Description                                                                                                         |
-| ------------ | ------------------------------ | ------------------------------------------------------------------------------------------------------------------- |
-| `purge`      | `user: string`, `data: string` | Becca will purge all `data` data (i.e. `level` data) associated with the `user` id.                                 |
-| `register`   | `null`                         | Becca will re-register all application commands. Use this when a command's `data` has been changed (not the `run`). |
-| `unregister` | `command: string`              | Becca will unregister a specific command, deleting it from the list.                                                |
-| `viewslash`  | `null`                         | Becca will fetch all current available commands.                                                                    |
-
 ## reactionrole Commands
 
-The `/reactionrole` system allows you to set up reaction roles, a common feature among Discord bots. You specify a message (via the message link), emoji, and role to assign, and when someone reacts to that message Becca will give them the role. If they remove the reaction, Becca will remove the role.
+The `/reactionrole` system allows you to set up reaction roles, a common feature among Discord bots. Becca's approach, however, is a bit different. Rather than using emoji, Becca uses Discord's message buttons to assign roles. This allows her to offer faster and more reliable response times.
 
-| Command  | Parameters                                         | Description                               |
-| -------- | -------------------------------------------------- | ----------------------------------------- |
-| `add`    | `message: string`, `emoji: string`, `role: string` | Adds a reaction role to the message.      |
-| `list`   | `message: string`                                  | Lists all reaction roles for the message. |
-| `remove` | `message: string`, `emoji: string`, `role: string` | Removes a reaction role from the message. |
+| Command  | Parameters                                            | Description                                                                                                                                                               |
+| -------- | ----------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `create` | `channel: Channel`, `title: string`, `roles: ...Role` | Creates a message in the given `channel`, using the `title` as the content. Takes up to 20 role parameters, and creates a button for each one so users can add/remove it. |
 
 ## triggers Commands
 

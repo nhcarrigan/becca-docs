@@ -37,3 +37,9 @@ A brief description for inviting your bot.
 Instructions for our expected standards when you are ready to propose your changes.
 
 [View Guide](/creating-pr.md)
+
+## Translating Becca
+
+Instructions for contributing translations to Becca's content.
+
+[View Guide](/translation.md)
