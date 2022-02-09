@@ -8,6 +8,13 @@ Becca's updates are deployed every Sunday around 8AM Pacific Time.
 
 ## Version 18
 
+### 18.2.0
+
+- Added anti-phishing system.
+- Added currency reminder feature.
+- Migrated `/nhcarrigan` commands.
+- Additional i18n fixes.
+
 ### 18.1.0
 
 - Migrated `/reactionrole` system from reactions to buttons.

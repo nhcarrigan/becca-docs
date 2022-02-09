@@ -6,12 +6,13 @@ Becca's primary command system has been migrated to use Discord's new slash inte
 
 The `/automod` commands are used to manage Becca's automatic moderation system.
 
-| Command  | Parameters                          | Description                                        |
-| -------- | ----------------------------------- | -------------------------------------------------- |
-| `reset`  | `setting: Setting`                  | Resets the specified setting to its default value. |
-| `set`    | `setting: Setting, value: Value`    | Sets the specified setting to the specified value. |
-| `toggle` | `feature: Setting, enabled: on/off` | Toggles the automod feature on or off..            |
-| `view`   | `setting: Setting`                  | Views the current value of the specified setting.  |
+| Command     | Parameters                          | Description                                        |
+| ----------- | ----------------------------------- | -------------------------------------------------- | ---- | ----- | ---------------------------------------------------------- |
+| `antiphish` | `action: ban                        | kick                                               | mute | none` | Sets the action to take when a user posts a phishing link. |
+| `reset`     | `setting: Setting`                  | Resets the specified setting to its default value. |
+| `set`       | `setting: Setting, value: Value`    | Sets the specified setting to the specified value. |
+| `toggle`    | `feature: Setting, enabled: on/off` | Toggles the automod feature on or off..            |
+| `view`      | `setting: Setting`                  | Views the current value of the specified setting.  |
 
 ## Becca Commands
 
@@ -76,7 +77,7 @@ The `/config` commands are used to manage the [server settings](/configure-serve
 
 ## Currency Commands
 
-The `/currency` commands are used to earn [BeccaCoin](/currency.md), which can be exchanged for rewards in our [support server](https://links.nhcarrigan.com/discord).
+The `/currency` commands are used to earn [BeccaCoin](/currency.md), which can be exchanged for rewards in our [support server](https://links.nhcarrigan.com/discord). Joining our support server also allows users to receive reminders when they can claim their weekly and daily rewards.
 
 | Command  | Parameters       | Description                                                                                                         |
 | -------- | ---------------- | ------------------------------------------------------------------------------------------------------------------- |
@@ -155,17 +156,6 @@ The `/moderation` commands provide tools for moderating your community. These wi
 | `mute`    | `user: User`, `duration: number`, `unit: string`, `reason: string` | Issues a Discord timeout to the `user` for the given `duration` in `unit`s (i.e. 3 days), for the provided `reason`. |
 | `unmute`  | `user: User`, `reason: string`                                     | Removes the Discord timeout on the `user` for the given `reason`.                                                    |
 | `warn`    | `user: User`, `reason: string`                                     | Issues a warning to the `user` for the given `reason`, and adds that warning to their record.                        |
-
-## nhcarrigan Commands
-
-The `/nhcarrigan` commands are locked to the bot's owner ID, and are used to manage the operations of the bot.
-
-| Command      | Parameters                     | Description                                                                                                         |
-| ------------ | ------------------------------ | ------------------------------------------------------------------------------------------------------------------- |
-| `purge`      | `user: string`, `data: string` | Becca will purge all `data` data (i.e. `level` data) associated with the `user` id.                                 |
-| `register`   | `null`                         | Becca will re-register all application commands. Use this when a command's `data` has been changed (not the `run`). |
-| `unregister` | `command: string`              | Becca will unregister a specific command, deleting it from the list.                                                |
-| `viewslash`  | `null`                         | Becca will fetch all current available commands.                                                                    |
 
 ## reactionrole Commands
 
