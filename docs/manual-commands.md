@@ -6,13 +6,13 @@ Becca's primary command system has been migrated to use Discord's new slash inte
 
 The `/automod` commands are used to manage Becca's automatic moderation system.
 
-| Command     | Parameters                          | Description                                        |
-| ----------- | ----------------------------------- | -------------------------------------------------- | ---- | ----- | ---------------------------------------------------------- |
-| `antiphish` | `action: ban                        | kick                                               | mute | none` | Sets the action to take when a user posts a phishing link. |
-| `reset`     | `setting: Setting`                  | Resets the specified setting to its default value. |
-| `set`       | `setting: Setting, value: Value`    | Sets the specified setting to the specified value. |
-| `toggle`    | `feature: Setting, enabled: on/off` | Toggles the automod feature on or off..            |
-| `view`      | `setting: Setting`                  | Views the current value of the specified setting.  |
+| Command     | Parameters                            | Description                                                |
+| ----------- | ------------------------------------- | ---------------------------------------------------------- |
+| `antiphish` | `action: ban \| kick \| mute \| none` | Sets the action to take when a user posts a phishing link. |
+| `reset`     | `setting: Setting`                    | Resets the specified setting to its default value.         |
+| `set`       | `setting: Setting, value: Value`      | Sets the specified setting to the specified value.         |
+| `toggle`    | `feature: Setting, enabled: on/off`   | Toggles the automod feature on or off..                    |
+| `view`      | `setting: Setting`                    | Views the current value of the specified setting.          |
 
 ## Becca Commands
 
