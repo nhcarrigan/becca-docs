@@ -8,6 +8,10 @@ Becca's updates are deployed every Sunday around 8AM Pacific Time.
 
 ## Version 18
 
+### 18.3.0
+
+- Added the Mee6 migration command.
+
 ### 18.2.0
 
 - Added anti-phishing system.

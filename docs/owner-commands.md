@@ -7,6 +7,8 @@ Becca has specific owner-only commands, which are message based to avoid clutter
 
 - `Naomi fish <link>`: Used to report a phishing `link` to the database that we are using.
 
+- `Naomi Mee6 <id>`: Grabs the Mee6 leaderboard for the given server (by `id`) and migrates the levels to Becca's system.
+
 - `Naomi purge <data> <id>`: Cleans all of the user's data (based on `id`) for the given `data` type. This is used to comply with data deletion and opt-out requests.
 
 - `Naomi register`: Sends the current slash command JSON to Discord, updating the registered commands.
