@@ -38,7 +38,7 @@ is made before the notification message is sent.
 ```
 
 > [!NOTE]
-> You should *not* change the package version number - this is handled by our team during deployments.
+> You should _not_ change the package version number - this is handled by our team during deployments.
 
 ## Submitting Your Pull Request
 
@@ -61,7 +61,7 @@ Closes #XXXXX
 
 ## Documentation
 
-For _any_ version updates, please verify if the [documentation page](https://www.beccalyria.com/discord-documentation) needs an update. If it does, please [create an issue there](https://github.com/BeccaLyria/discord-documentation/issues/new?assignees=nhcarrigan&labels=%F0%9F%9A%A6+status%3A+awaiting+triage&template=update.md&title=%5BUPDATE%5D) to ensure it is not forgotten.
+For _any_ version updates, please verify if the [documentation page](https://docs.beccalyria.com?utm_source=docs&utm_medium=creating-pr) needs an update. If it does, please [create an issue there](https://github.com/BeccaLyria/discord-documentation/issues/new?assignees=nhcarrigan&labels=%F0%9F%9A%A6+status%3A+awaiting+triage&template=update.md&title=%5BUPDATE%5D) to ensure it is not forgotten.
 
 - [ ] My contribution does NOT require a documentation update.
 - [ ] My contribution DOES require a documentation update.
@@ -73,7 +73,7 @@ Below the `Description` header, you should provide a clear description of what y
 
 Below the `Related Issue` header, if your pull request will close an issue, replace `XXXXX` with the issue number. A pull request that closes issue 1234 would say `Closes #1234`. If your pull request is related to an issue but will not necessarily close it, change it to `Related to #1234`.
 
-Under the `Documentation` header, determine if your changes require an update to this documentation site. Replace the appropriate `[ ]` with `[x]`. If your changes *do* require a documentation update, create an issue on the repository (the link is provided) to help our team keep track.
+Under the `Documentation` header, determine if your changes require an update to this documentation site. Replace the appropriate `[ ]` with `[x]`. If your changes _do_ require a documentation update, create an issue on the repository (the link is provided) to help our team keep track.
 
 ## Waiting for Review
 

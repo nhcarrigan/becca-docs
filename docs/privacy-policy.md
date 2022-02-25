@@ -59,7 +59,7 @@ _If enabled in the server_, Becca will track message activity. Becca does not st
 - `Experience Points`: Becca awards experience points based on your message activity. Becca does _not_ store message content or metadata.
 - `Last Seen`: Becca tracks the last time you were seen sending a message in the server for the cooldown and the level command.
 
-**Visibility**: This data is publicly visible through the `/community level` and `/community leaderboard` commands, as well as on the [dashboard](https://dash.beccalyria.com).
+**Visibility**: This data is publicly visible through the `/community level` and `/community leaderboard` commands, as well as on the [dashboard](https://dash.beccalyria.com?utm_source=docs&utm_medium=privacy-policy).
 
 **Optout**: You can opt out of this data collection by request in our [support server](https://chat.nhcarrigan.com). Your level data for a server is automatically deleted if you leave that server.
 
@@ -84,7 +84,7 @@ Becca tracks anonymous command usage data for each server. This data is used to 
 - `Server Avatar`: Becca uses the server avatar to render the data.
 - `Command Counts`: Becca keeps a global count of the number of times any command has been used in your server.
 
-**Visibility**: This data is publicly visible through the `/becca stats` command and on the [dashboard](https://dash.beccalyria.com).
+**Visibility**: This data is publicly visible through the `/becca stats` command and on the [dashboard](https://dash.beccalyria.com?utm_source=docs&utm_medium=privacy-policy).
 
 **Optout**: You can opt out of this data collection by removing Becca from your server, or by request in our [support server](https://chat.nhcarrigan.com). This data is automatically deleted when Becca leaves a server.
 
@@ -109,7 +109,7 @@ Becca tracks the total number of stars each user has received in a server. This 
 - `Avatar`: Becca stores your latest avatar URL for use on the web view.
 - `Star Total`: Becca tracks your star total.
 
-**Visibility**: This data is publicly visible through the `/community starcount` command, as well as the [dashboard](https://dash.beccalyria.com).
+**Visibility**: This data is publicly visible through the `/community starcount` command, as well as the [dashboard](https://dash.beccalyria.com?utm_source=docs&utm_medium=privacy-policy).
 
 **Optout**: You can opt out of this data collection by request in our [support server](https://chat.nhcarrigan.com). Your data for a specific server is automatically deleted when you leave that server.
 
@@ -120,7 +120,7 @@ Becca tracks an anonymous total count of the usage of each command/subcommand. T
 - `Command/Subcommand`: Becca tracks the name of the command and subcommand used.
 - `Uses`: Becca tracks the number of times that command/subcommand has been used.
 
-**Visibility**: This data is publicly visible through the `/becca stats` command, as well as the [dashboard](https://dash.beccalyria.com).
+**Visibility**: This data is publicly visible through the `/becca stats` command, as well as the [dashboard](https://dash.beccalyria.com?utm_source=docs&utm_medium=privacy-policy).
 
 **Optout**: As this data is entirely anonymous, there is no opt-out or deletion available.
 
