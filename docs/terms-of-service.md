@@ -72,7 +72,7 @@ You agree that your comments will not violate any right of any third-party, incl
 
 ## SECTION 8 - PERSONAL INFORMATION
 
-Your submission of personal information through the application is governed by our Privacy Policy. To view our Privacy Policy, [visit this page](https://docs.beccalyria.com/#/privacy-policy).
+Your submission of personal information through the application is governed by our Privacy Policy. To view our Privacy Policy, [visit this page](https://docs.beccalyria.com/#/privacy-policy?utm_source=docs&utm_medium=tos).
 
 ## SECTION 9 - ERRORS, INACCURACIES AND OMISSIONS
 
