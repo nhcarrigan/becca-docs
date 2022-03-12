@@ -12,7 +12,7 @@
     "npm": "^8.0.0"
   },
   "dependencies": {
-    "docsify-cli": "4.4.3"
+    "docsify-cli": "4.4.4"
   },
   "devDependencies": {
     "markdownlint": "0.25.1",
