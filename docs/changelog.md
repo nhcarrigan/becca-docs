@@ -8,6 +8,17 @@ Becca's updates are deployed every Sunday around 8AM Pacific Time.
 
 ## Version 18
 
+### 18.4.0
+
+- Added UTM tracking parameters to Becca's links.
+- Updated the currency rewards.
+- Tweaked the member remove flow.
+- Added a `topgg` owner command.
+
+### 18.3.1
+
+- Fixed some broken i18n strings.
+
 ### 18.3.0
 
 - Added the Mee6 migration command.
