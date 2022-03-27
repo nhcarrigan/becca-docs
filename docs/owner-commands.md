@@ -13,6 +13,8 @@ Becca has specific owner-only commands, which are message based to avoid clutter
 
 - `Naomi register`: Sends the current slash command JSON to Discord, updating the registered commands.
 
+- `Naomi topgg`: Sends the latest server count to TopGG for Becca's bot page.
+
 - `Naomi unregister <command>`: Unregisters a given command from Discord.
 
 - `Naomi view`: Provides a list of all registered commands (used to confirm the `register` and `unregister` commands).
