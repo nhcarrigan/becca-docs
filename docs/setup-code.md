@@ -58,6 +58,8 @@ These values are necessary for specific commands.Using an invalid value will pre
 
 - `ORBIT_KEY` (OPTIONAL) - This is the API key for Orbit. **Obtained from [the Orbit Webpage](https://orbit.love/)**
 
+- `HEPTAGRAM_API_TOKEN` (OPTIONAL) - This is an API key for the [Heptagram scam-detection API](http://api.heptagrambotproject.com/).
+
 These values are Discord values required for the slash commands.
 
 - `OWNER_ID` (REQUIRED) - This tells Becca which Discord account is her owner. She will respond just a little differently to the owner. Leaving this blank WILL lock out some commands. **This is obtained by enabling developer mode in your Discord settings, right clicking on your avatar, and selecting Copy ID**
