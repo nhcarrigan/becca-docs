@@ -7,6 +7,7 @@
 - [Automatic Commands](/automatic-commands.md)
 - [Manual Commands](/manual-commands.md)
 - [Context Commands](/context-commands.md)
+- [User Configuration](/user-config.md)
 - [Level Scale](/level-scale.md)
 - [Currency System](/currency.md)
 - [Owner Commands](/owner-commands.md)

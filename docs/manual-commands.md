@@ -146,7 +146,10 @@ The `/misc` commands are things that did not fit in to any other category.
 
 ## Moderation Commands
 
-The `/moderation` commands provide tools for moderating your community. These will all log to your moderation log channel. When a user is the target of a moderation action, Becca will attempt to DM them to notify them of the action, with the `reason` that is provided.
+The `/mod` commands provide tools for moderating your community. These will all log to your moderation log channel. When a user is the target of a moderation action, Becca will attempt to DM them to notify them of the action, with the `reason` that is provided.
+
+> [!NOTE]
+> If the target `user` also has the requisite permissions to use the command, the command will not work on them.
 
 | Command   | Parameters                                                         | Description                                                                                                          |
 | --------- | ------------------------------------------------------------------ | -------------------------------------------------------------------------------------------------------------------- |
@@ -161,9 +164,11 @@ The `/moderation` commands provide tools for moderating your community. These wi
 
 The `/reactionrole` system allows you to set up reaction roles, a common feature among Discord bots. Becca's approach, however, is a bit different. Rather than using emoji, Becca uses Discord's message buttons to assign roles. This allows her to offer faster and more reliable response times.
 
-| Command  | Parameters                                            | Description                                                                                                                                                               |
-| -------- | ----------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| `create` | `channel: Channel`, `title: string`, `roles: ...Role` | Creates a message in the given `channel`, using the `title` as the content. Takes up to 20 role parameters, and creates a button for each one so users can add/remove it. |
+| Command  | Parameters                                            | Description                                                                                                                                                                                        |
+| -------- | ----------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `add`    | `link: string`, `role: Role`                          | Adds a button for the given `role` to the message found at the `link`. Note that the message should be an existing reactionrole message, and that there cannot be more than 20 roles on a message. |
+| `create` | `channel: Channel`, `title: string`, `roles: ...Role` | Creates a message in the given `channel`, using the `title` as the content. Takes up to 20 role parameters, and creates a button for each one so users can add/remove it.                          |
+| `remove` | `link: string`, `role: Role`                          | Removes the button for the given `role` from the message found at the `link`.                                                                                                                      |
 
 ## triggers Commands
 
@@ -174,3 +179,12 @@ The `/triggers` commands manage your server's specific triggers. These commands 
 | `add`    | `trigger: string`, `response: string` | Adds a new trigger to your server.  |
 | `remove` | `trigger: string`                     | Removes a trigger from your server. |
 | `view`   | `null`                                | Shows all triggers on your server.  |
+
+## userconfig Commands
+
+The `/userconfig` commands allow you to personalise some of Becca's features and responses. These settings are global (will work for you in any server) and tied to your user ID.
+
+| Command     | Parameters                                                     | Description                                        |
+| ----------- | -------------------------------------------------------------- | -------------------------------------------------- |
+| `levelcard` | `background: string`, `foreground: string`, `progress: string` | Configures the theme for your personal level card. |
+| `view`      | `null`                                                         | Lists your current settings.                       |
