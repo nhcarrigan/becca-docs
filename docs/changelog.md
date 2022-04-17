@@ -8,6 +8,12 @@ Becca's updates are deployed every Sunday around 8AM Pacific Time.
 
 ## Version 18
 
+### 18.6.0
+
+- Updated the anti-phish detection system to rely on multiple APIs, minimising the chance of false positives.
+- Improved the logic in `message.react` calls, allowing us to restore custom emotes.
+- Deprecated the `/community role` command and the self-assignable roles configuration setting.
+
 ### 18.5.1
 
 - Updated the `/mod` commands such that they cannot be used against members who have the same permission to use the commands.
