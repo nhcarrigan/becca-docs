@@ -174,3 +174,12 @@ The `/triggers` commands manage your server's specific triggers. These commands 
 | `add`    | `trigger: string`, `response: string` | Adds a new trigger to your server.  |
 | `remove` | `trigger: string`                     | Removes a trigger from your server. |
 | `view`   | `null`                                | Shows all triggers on your server.  |
+
+## userconfig Commands
+
+The `/userconfig` commands allow you to personalise some of Becca's features and responses. These settings are global (will work for you in any server) and tied to your user ID.
+
+| Command     | Parameters                                                     | Description                                        |
+| ----------- | -------------------------------------------------------------- | -------------------------------------------------- |
+| `levelcard` | `background: string`, `foreground: string`, `progress: string` | Configures the theme for your personal level card. |
+| `view`      | `null`                                                         | Lists your current settings.                       |
