@@ -8,6 +8,12 @@ Becca's updates are deployed every Sunday around 8AM Pacific Time.
 
 ## Version 18
 
+### 18.5.0
+
+- Added a level card image to `/community level`.
+- Added `/userconfig` commands to allow card customisation.
+- Updated the `/reactionrole` system to allow editing of existing posts.
+
 ### 18.4.0
 
 - Added UTM tracking parameters to Becca's links.
