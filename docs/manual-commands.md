@@ -148,6 +148,9 @@ The `/misc` commands are things that did not fit in to any other category.
 
 The `/moderation` commands provide tools for moderating your community. These will all log to your moderation log channel. When a user is the target of a moderation action, Becca will attempt to DM them to notify them of the action, with the `reason` that is provided.
 
+> [!NOTE]
+> If the target `user` also has the requisite permissions to use the command, the command will not work on them.
+
 | Command   | Parameters                                                         | Description                                                                                                          |
 | --------- | ------------------------------------------------------------------ | -------------------------------------------------------------------------------------------------------------------- |
 | `ban`     | `user: User`, `reason: string`                                     | Bans the `user` from the server for the given `reason`.                                                              |
