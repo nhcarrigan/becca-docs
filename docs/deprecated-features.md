@@ -78,6 +78,8 @@ This page documents former features which have been deprecated, including the ve
 
 - `nhcarrigan leave` command _(deprecated in 17.8.0)_ - No longer needed with verification in place.
 
+- `community role` command _(deprecated in 18.6.0)_ - Removed in favour of the `/reactionrole` system.
+
 ## Temporary Deprecations
 
 These features have been temporarily removed, but are planned for a future version.
