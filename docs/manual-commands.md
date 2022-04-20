@@ -105,6 +105,7 @@ The `/games` commands are fun and silly commands to add a bit of charm to your c
 | `fact`     | `null`            | Returns a random fun fact.                                                                                                                          |
 | `habitica` | `id: Habitica ID` | Returns information on the provided user's Habitica progress. Note that `id` is the user's ID (available in their profile URL), NOT their username. |
 | `joke`     | `null`            | Returns a random joke.                                                                                                                              |
+| `quote`    | `null`            | Returns a random quote.                                                                                                                             |
 | `mtg`      | `card: string`    | Fetches and displays information on the given Magic: The Gathering `card`.                                                                          |
 | `slime`    | `null`            | Gives you a random slime-themed nickname.                                                                                                           |
 | `sus`      | `null`            | Selects an Among Us colour and declares it sus!                                                                                                     |
