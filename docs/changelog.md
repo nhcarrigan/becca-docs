@@ -4,7 +4,17 @@ Here you can see changes made across each version of Becca.
 
 Becca's updates are deployed every Sunday around 8AM Pacific Time.
 
-[Version 18](#version-18) | [Version 17](#version-17) | [Version 16](#version-16) | [Version 15](#version-15) | [Version 14](#version-14) | [Version 13](#version-13) | [Version 12](#version-12) | [Version 11](#version-11) | [Version 10](#version-10) | [Version 9](#version-9)
+[Version 19](#version-19) | [Version 18](#version-18) | [Version 17](#version-17) | [Version 16](#version-16) | [Version 15](#version-15) | [Version 14](#version-14) | [Version 13](#version-13) | [Version 12](#version-12) | [Version 11](#version-11) | [Version 10](#version-10) | [Version 9](#version-9)
+
+## Version 19
+
+### 19.0.0
+
+- Patched an error in the new `/mod` permission system.
+- Patched an error in the Heptagram anti-phish endpoint.
+- Updated `/games joke` command to use Heptagram API.
+- Added `/games quote` command.
+- Refactored the command logic for cleaner subcommand approach and improved DX.
 
 ## Version 18
 
