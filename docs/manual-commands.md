@@ -84,7 +84,7 @@ The `/currency` commands are used to earn [BeccaCoin](/currency.md), which can b
 | `about`  | `null`           | Provides information about the currency system.                                                                     |
 | `claim`  | `reward: string` | Exchanges your earned BeccaCoin for a given reward.                                                                 |
 | `daily`  | `null`           | Generates your daily currency reward.                                                                               |
-| `slots`  | `wager: number`  | Play a game of slots for double or nothing on your `wager`.                                                         |
+| `slots`  | `wager: number`  | Play a game of slots. Match two and get 10 times your `wager`. Match 3 and get 100 times your `wager`.              |
 | `weekly` | `null`           | Generates your weekly currency reward.                                                                              |
 
 ## Emote Commands
