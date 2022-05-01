@@ -8,6 +8,12 @@ Becca's updates are deployed every Sunday around 8AM Pacific Time.
 
 ## Version 19
 
+### 19.0.1
+
+- Updated the available currency rewards
+- Increased the daily and weekly currency gain amounts
+- Added a partial win rate to the slots game and increased the win amounts
+
 ### 19.0.0
 
 - Patched an error in the new `/mod` permission system.
