@@ -167,7 +167,7 @@ The `/reactionrole` system allows you to set up reaction roles, a common feature
 | Command  | Parameters                                            | Description                                                                                                                                                                                        |
 | -------- | ----------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | `add`    | `link: string`, `role: Role`                          | Adds a button for the given `role` to the message found at the `link`. Note that the message should be an existing reactionrole message, and that there cannot be more than 20 roles on a message. |
-| `create` | `channel: Channel`, `title: string`, `roles: ...Role` | Creates a message in the given `channel`, using the `title` as the content. Takes up to 20 role parameters, and creates a button for each one so users can add/remove it.                          |
+| `create` | `channel: Channel`, `header: string`, `roles: ...Role` | Creates a message in the given `channel`, using the `header` as the content. Takes up to 20 role parameters, and creates a button for each one so users can add/remove it.                          |
 | `remove` | `link: string`, `role: Role`                          | Removes the button for the given `role` from the message found at the `link`.                                                                                                                      |
 
 ## triggers Commands
