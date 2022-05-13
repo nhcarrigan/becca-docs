@@ -32,6 +32,6 @@
 
 ---
 
-© 2021 [Naomi Carrigan](https://www.nhcarrigan.com?utm_source=becca-docs&utm_medium=navbar)
+© 2022 [Naomi Carrigan](https://www.nhcarrigan.com?utm_source=becca-docs&utm_medium=navbar)
 
 [Webpage art by Moonlight](https://www.instagram.com/moonlightkcreations/)
