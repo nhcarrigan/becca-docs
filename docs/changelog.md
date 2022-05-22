@@ -8,6 +8,14 @@ Becca's updates are deployed every Sunday around 8AM Pacific Time.
 
 ## Version 19
 
+### 19.1.0
+
+- Implemented monthly vote tracking to test giving a role reward.
+
+### 19.0.2
+
+- Made the link detection regex less sensitive, expecting http(s) to avoid false positives.
+
 ### 19.0.1
 
 - Updated the available currency rewards
