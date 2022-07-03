@@ -2,6 +2,8 @@
 
 These pages provide information for contributing to Becca's development. While primarily intended for developers, there are many opportunities for anyone to contribute.
 
+Be sure to read our [top-level contributing guidelines](https://docs.nhcarrigan.com/#/contributing) before starting.
+
 ## How to Contribute
 
 This page gives a basic overview of possible ways to contribute to Becca.

@@ -8,6 +8,21 @@ Becca's updates are deployed every Sunday around 8AM Pacific Time.
 
 ## Version 19
 
+### 19.2.0
+
+- Added option to set initial experience level.
+- Implemented indexing on production database.
+- Dependency updates to enable text-in-voice support.
+
+### 19.1.2
+
+- Reverted the experience cooldown increase that was accidentally implemented before the level migration.
+
+### 19.1.1
+
+- Patched issue with updated Heptagram API endpoint.
+- Removed the starboard and leaderboard endpoints to address potential privacy concerns.
+
 ### 19.1.0
 
 - Implemented monthly vote tracking to test giving a role reward.
