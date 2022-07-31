@@ -12,9 +12,11 @@ Once your environment is set up, you need to connect the code to a Discord Bot a
 
 After creating your bot application, you'll need to enable the `Server Members Intent` option to receive the `GUILD_MEMBERS` intent. This is required for Becca's functionality, and the bot will not load if this is disabled.
 
+**As of version 20**, you will also need to enable the `Message Content Intent` option to receive the `MESSAGE_CONTENT` intent.
+
 Additionally, you may wish to disable the `Public Bot` option to prevent other people from being able to invite your test application.
 
-![Intent Settings](https://cdn.nhcarrigan.com/content/discord/intents.png)
+![The Privileged Gateway Intents section of the Discord Developer portal, with the Presence Intent turned off, the Server Members Intent turned on, and the Message Content Intent turned on.](https://cdn.nhcarrigan.com/discord/intents.png)
 
 ## Create a Webhook
 

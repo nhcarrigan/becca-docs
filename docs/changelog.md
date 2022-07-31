@@ -4,7 +4,22 @@ Here you can see changes made across each version of Becca.
 
 Becca's updates are deployed every Sunday around 8AM Pacific Time.
 
-[Version 19](#version-19) | [Version 18](#version-18) | [Version 17](#version-17) | [Version 16](#version-16) | [Version 15](#version-15) | [Version 14](#version-14) | [Version 13](#version-13) | [Version 12](#version-12) | [Version 11](#version-11) | [Version 10](#version-10) | [Version 9](#version-9)
+[Version 20](#version-20) | [Version 19](#version-19) | [Version 18](#version-18) | [Version 17](#version-17) | [Version 16](#version-16) | [Version 15](#version-15) | [Version 14](#version-14) | [Version 13](#version-13) | [Version 12](#version-12) | [Version 11](#version-11) | [Version 10](#version-10) | [Version 9](#version-9)
+
+## Version 20
+
+### 20.0.1
+
+- Fixed bug where tied score logic ran when player hit, now it only runs on a stand.
+- Added declaration for Message Content intent, fixing issues with automod and level system.
+
+### 20.0.0
+
+- Updated `discord.js` to version 14, refactored code.
+- Fix to initial experience logic to only run if levels are enabled.
+- Hack-ban members who left server, rather than throwing an error on `/mod ban`.
+- Fixed bug where a tied score locked the game in `/currency 21`.
+- Temporarily deprecated the `/reactionrole add` and `/reactionrole remove` commands due to type definition issues.
 
 ## Version 19
 

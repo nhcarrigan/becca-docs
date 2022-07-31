@@ -12,6 +12,6 @@ In servers that have the levelling system enabled, you are able to view your cur
 
 These values need to be set as HEX strings, with or without the hash. `#aaaaaa` and `0F0F0F` would both be acceptable values.
 
-![level card example](https://cdn.nhcarrigan.com/discord/level-card.png)
+![Example of a level embed, containing text values for the username, experience points, level, and date last seen. Embed also includes an image depicting the same information.](https://cdn.nhcarrigan.com/discord/level-card.png)
 
 In this example, the `background` value is `#3A3240`, the `foreground` value is `#AAEA8DE`, and the `progress` value is `#FFFFFF`.

@@ -64,7 +64,7 @@ This page documents former features which have been deprecated, including the ve
 
 - `kirby` command _(deprecated in 14.0.0)_ - Lack of use.
 
-- `piglating` command _(deprecated in 14.0.0)_ - Extraneous, lack of use.
+- `piglatin` command _(deprecated in 14.0.0)_ - Extraneous, lack of use.
 
 - `roll` command _(deprecated in 14.0.0)_ - Extraneous, lack of use.
 
@@ -89,3 +89,7 @@ These features have been temporarily removed, but are planned for a future versi
 - `wiki` command _(deprecated in 14.0.0)_ - May restore in a future version using the Wikipedia API.
 
 - ~~`habitica` command _(deprecated in 14.0.0)_ - Removed due to cognitive complexity, may restore with a new approach.~~ Restored in 17.2.0
+
+- `reactionrole add` command _(deprecated in 20.0.0)_ - Removed due to type definition errors.
+
+- `reactionrole remove` command _(deprecated in 20.0.0)_ - Removed due to type definition errors.

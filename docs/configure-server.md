@@ -5,6 +5,12 @@ There are a number of options for configuring your server.
 > [!NOTE]
 > Config settings are set on a per-server basis. Only moderators with the "Manage Server" permission can change the settings.
 
+The `value` column indicates the name and type of a parameter - however, do _not_ include the name/type in the command. These are provided for readability of the documentation.
+
+For example, adding a level-assigned role would look like so:
+
+![Example use of the config set command, with setting set to Level-assigned Roles and value set to "5 @Naomi's Fan (Lv.5)"](https://cdn.nhcarrigan.com/discord/config-command-example.png)
+
 ## Global Configurations
 
 The `/config set` slash command will allow you to configure Becca's features and behaviour for your server.
