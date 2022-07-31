@@ -164,11 +164,9 @@ The `/mod` commands provide tools for moderating your community. These will all 
 
 The `/reactionrole` system allows you to set up reaction roles, a common feature among Discord bots. Becca's approach, however, is a bit different. Rather than using emoji, Becca uses Discord's message buttons to assign roles. This allows her to offer faster and more reliable response times.
 
-| Command  | Parameters                                            | Description                                                                                                                                                                                        |
-| -------- | ----------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| `add`    | `link: string`, `role: Role`                          | Adds a button for the given `role` to the message found at the `link`. Note that the message should be an existing reactionrole message, and that there cannot be more than 20 roles on a message. |
-| `create` | `channel: Channel`, `header: string`, `roles: ...Role` | Creates a message in the given `channel`, using the `header` as the content. Takes up to 20 role parameters, and creates a button for each one so users can add/remove it.                          |
-| `remove` | `link: string`, `role: Role`                          | Removes the button for the given `role` from the message found at the `link`.                                                                                                                      |
+| Command  | Parameters                                             | Description                                                                                                                                                                |
+| -------- | ------------------------------------------------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `create` | `channel: Channel`, `header: string`, `roles: ...Role` | Creates a message in the given `channel`, using the `header` as the content. Takes up to 20 role parameters, and creates a button for each one so users can add/remove it. |
 
 ## triggers Commands
 
