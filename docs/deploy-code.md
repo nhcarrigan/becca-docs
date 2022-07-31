@@ -8,7 +8,7 @@ Go to the [Applications](https://discord.com/developers/applications) page in th
 
 - Open the new application that you created earlier.
 
-- Click on the `OAuth2` tab in the left panel.
+- Click on the `OAuth2` tab in the left panel, then select `URL Generator`.
 
 - In the scopes section, select the checkboxes with `applications.commands` (allows your bot to register slash commands) and `bot`.
 
@@ -16,7 +16,7 @@ Go to the [Applications](https://discord.com/developers/applications) page in th
 
 Your choices should look like this:
 
-![image of choices list](https://cdn.nhcarrigan.com/content/discord/becca-permissions.png)
+![OAuth URL Generator page on Discord Developer portal, showing the scopes "bot" and "applications.commands" selected, and the permissions "Manage Server", "Manage Roles", "Manage Channels", "Kick Members", "Ban Members", "Manage Nicknames", "Read Messages/View Channels", "Moderate Members", "Send Messages", "Manage Messages", "Embed Links", "Attach Files", "Read Message History", "Use External Emojis", and "Add Reactions" selected.](https://cdn.nhcarrigan.com/discord/oauth.png)
 
 You can then copy the invite link from the scopes section above using the `Copy` button.
 
