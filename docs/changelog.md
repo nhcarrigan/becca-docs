@@ -8,6 +8,14 @@ Becca's updates are deployed every Sunday around 8AM Pacific Time.
 
 ## Version 20
 
+### 20.1.0
+
+- Removed the default `hearts` values from the code.
+- Added option to customise level and role messages, and change the messages from embeds to text.
+- Added `/optout` command to allow for users to opt out of data collection systems, instead of having to join the server.
+- Removed the server-specific command usage tracking.
+- Added pagination to the leaderboard command.
+
 ### 20.0.1
 
 - Fixed bug where tied score logic ran when player hit, now it only runs on a stand.
