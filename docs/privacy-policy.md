@@ -23,7 +23,7 @@ Becca tracks the number of times you use a command or component. This data is us
 
 **Visibility**: This data is publicly visible through the `activity` context menu option.
 
-**Optout**: You can opt out of this data collection by request in our [support server](https://chat.nhcarrigan.com). This data is not automatically deleted, but can be deleted upon request in our [support server](https://chat.nhcarrigan.com).
+**Optout**: You can opt out of this data collection with the `/optout` command, or by request in our [support server](https://chat.nhcarrigan.com). This data is not automatically deleted, but can be deleted upon request in our [support server](https://chat.nhcarrigan.com).
 
 ### Currency System
 
@@ -35,7 +35,7 @@ Becca tracks your total currency value and the last time you used a currency com
 
 **Visibility**: This data is not publicly visible, but will be seen by other members when you use the `/currency view` command.
 
-**Optout**: You can opt out of this data collection by refraining from using the `/currency` commands, or by request in our [support server](https://chat.nhcarrigan.com). This data is not automatically deleted, but can be deleted upon request in our [support server](https://chat.nhcarrigan.com).
+**Optout**: You can opt out of this data collection by refraining from using the `/currency` commands, or by using the `/optout` command, or by request in our [support server](https://chat.nhcarrigan.com). This data is not automatically deleted, but can be deleted upon request in our [support server](https://chat.nhcarrigan.com).
 
 ### Emote System
 
@@ -47,7 +47,7 @@ Becca tracks the number of times you have been the target of an `/emote` command
 
 **Visibility**: This data is publicly visible when using an `/emote` command.
 
-**Optout**: You can opt out of this data collection by request in our [support server](https://chat.nhcarrigan.com). This data is not automatically deleted, but can be deleted upon request in our [support server](https://chat.nhcarrigan.com).
+**Optout**: You can opt out of this data collection by using the `/optout` command, or by request in our [support server](https://chat.nhcarrigan.com). This data is not automatically deleted, but can be deleted upon request in our [support server](https://chat.nhcarrigan.com).
 
 ### Level System
 
@@ -61,7 +61,7 @@ _If enabled in the server_, Becca will track message activity. Becca does not st
 
 **Visibility**: This data is publicly visible through the `/community level` and `/community leaderboard` commands.
 
-**Optout**: You can opt out of this data collection by request in our [support server](https://chat.nhcarrigan.com). Your level data for a server is automatically deleted if you leave that server.
+**Optout**: You can opt out of this data collection by using the `/optout` command, or by request in our [support server](https://chat.nhcarrigan.com). Your level data for a server is automatically deleted if you leave that server.
 
 ### Moderation History
 
@@ -74,19 +74,6 @@ Becca keeps a track of moderation actions taken against a user in a server. This
 **Visibility**: This data is only visible to members of a server who have the `Kick Members`, `Moderate Members`, or `Ban Members` permission. Data from one server is not visible in another.
 
 **Optout**: To preserve the integrity of our moderation system, this data (which does not include PII) cannot be opted out of or deleted.
-
-### Server Command Tracking
-
-Becca tracks anonymous command usage data for each server. This data is used to determine which commands are relevant, and which commands are not used enough to justify maintaining them.
-
-- `Server ID`: Becca uses the server ID to associate the data with your server.
-- `Server Name`: Becca uses the server name to render the data.
-- `Server Avatar`: Becca uses the server avatar to render the data.
-- `Command Counts`: Becca keeps a global count of the number of times any command has been used in your server.
-
-**Visibility**: This data is publicly visible through the `/becca stats` command.
-
-**Optout**: You can opt out of this data collection by removing Becca from your server, or by request in our [support server](https://chat.nhcarrigan.com). This data is automatically deleted when Becca leaves a server.
 
 ### Server Configuration System
 
@@ -111,7 +98,7 @@ Becca tracks the total number of stars each user has received in a server. This 
 
 **Visibility**: This data is publicly visible through the `/community starcount` command.
 
-**Optout**: You can opt out of this data collection by request in our [support server](https://chat.nhcarrigan.com). Your data for a specific server is automatically deleted when you leave that server.
+**Optout**: You can opt out of this data collection by using the `/optout` command, or by request in our [support server](https://chat.nhcarrigan.com). Your data for a specific server is automatically deleted when you leave that server.
 
 ### Usage Tracking
 
@@ -134,7 +121,7 @@ Becca tracks the number of times a user votes for our support server or bot on t
 
 **Visibility**: This data is publicly visible through the `/becca stats` command.
 
-**Optout**: You can opt out of this data collection by request in our [support server](https://chat.nhcarrigan.com). This data is not automatically deleted, but can be deleted upon request in our [support server](https://chat.nhcarrigan.com).
+**Optout**: You can opt out of this data collection by refraining from voting for the bot/server, or by using the `/optout` command, or by request in our [support server](https://chat.nhcarrigan.com). This data is not automatically deleted, but can be deleted upon request in our [support server](https://chat.nhcarrigan.com).
 
 ## On-Platform Data
 
