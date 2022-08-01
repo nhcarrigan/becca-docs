@@ -160,7 +160,11 @@ The `/mod` commands provide tools for moderating your community. These will all 
 | `unmute`  | `user: User`, `reason: string`                                     | Removes the Discord timeout on the `user` for the given `reason`.                                                    |
 | `warn`    | `user: User`, `reason: string`                                     | Issues a warning to the `user` for the given `reason`, and adds that warning to their record.                        |
 
-## reactionrole Commands
+## OptOut Commands
+
+The `/optout` command allows you to opt out (or back in) to features that require data collection. This command has no subcommands.
+
+## Reaction Role Commands
 
 The `/reactionrole` system allows you to set up reaction roles, a common feature among Discord bots. Becca's approach, however, is a bit different. Rather than using emoji, Becca uses Discord's message buttons to assign roles. This allows her to offer faster and more reliable response times.
 
@@ -168,7 +172,7 @@ The `/reactionrole` system allows you to set up reaction roles, a common feature
 | -------- | ------------------------------------------------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | `create` | `channel: Channel`, `header: string`, `roles: ...Role` | Creates a message in the given `channel`, using the `header` as the content. Takes up to 20 role parameters, and creates a button for each one so users can add/remove it. |
 
-## triggers Commands
+## Trigger Commands
 
 The `/triggers` commands manage your server's specific triggers. These commands require permission to manage the server.
 
@@ -178,7 +182,7 @@ The `/triggers` commands manage your server's specific triggers. These commands 
 | `remove` | `trigger: string`                     | Removes a trigger from your server. |
 | `view`   | `null`                                | Shows all triggers on your server.  |
 
-## userconfig Commands
+## User Config Commands
 
 The `/userconfig` commands allow you to personalise some of Becca's features and responses. These settings are global (will work for you in any server) and tied to your user ID.
 
