@@ -93,3 +93,5 @@ These features have been temporarily removed, but are planned for a future versi
 - `reactionrole add` command _(deprecated in 20.0.0)_ - Removed due to type definition errors.
 
 - `reactionrole remove` command _(deprecated in 20.0.0)_ - Removed due to type definition errors.
+
+- server-specific command tracking _(deprecated in 20.1.0)_ - Removed for stricter privacy, and lack of continued need for data.
