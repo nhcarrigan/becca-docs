@@ -8,6 +8,16 @@ Becca's updates are deployed every Sunday around 8AM Pacific Time.
 
 ## Version 20
 
+### 20.2.0
+
+- Fixed a broken i18n string in the level settings embed.
+- Disallowed mentions when using text-based level messages.
+- Adjusted the daily and weekly currency rewards so they can never be 0.
+- Set up separate GitHub sponsors account for Becca.
+- Updated the `/currency view` layout to use Discord timestamps.
+- Updated the Heptagram API in the scam detection system.
+- Added the `/becca feedback` command.
+
 ### 20.1.0
 
 - Removed the default `hearts` values from the code.
