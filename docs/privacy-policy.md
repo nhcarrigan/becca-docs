@@ -148,6 +148,18 @@ Please refer to [the log settings](configure-server.md) for more information on 
 > [!WARNING]
 > Becca's development team does not enforce any control over the moderation logging settings. If you wish to delete the on-platform data, you will need to work with the server managers and/or Discord. Additionally, you may only opt out of this data logging by leaving the server.
 
+### Feedback System
+
+When you submit feedback through the `/becca feedback` command, the following information is posted in an embed in our support server:
+
+- The feedback you share.
+- Your user tag and avatar.
+- The name of the server you used the command in.
+
+**Visibility**: This data is visible to members of our support server.
+
+**Optout**: You can opt out of this by not using the `/becca feedback` command. You can also join the support server to request previously sent feedback be removed.
+
 ## User Rights
 
 At any time, you have the right to request to view the Data pertaining to your Discord account. You may submit a request through the Discord server. You have the right to request the removal of relevant Data.
