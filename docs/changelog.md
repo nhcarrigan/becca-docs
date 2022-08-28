@@ -8,6 +8,11 @@ Becca's updates are deployed every Sunday around 8AM Pacific Time.
 
 ## Version 20
 
+### 20.2.1
+
+- Fixed bug with the `/currency view` command not displaying cooldowns correctly.
+- Fixed bug with the `/manage suggestion` command not adding embed fields correctly.
+
 ### 20.2.0
 
 - Fixed a broken i18n string in the level settings embed.
