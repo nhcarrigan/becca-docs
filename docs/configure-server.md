@@ -45,16 +45,17 @@ The auto-moderation system will not run on any users who have the `Manage Messag
 
 The `/levels set` command allows you to adjust how Becca's levelling system works.
 
-| Setting         | Inputs                      | Description                                                                      |
-| --------------- | --------------------------- | -------------------------------------------------------------------------------- |
-| `initial_xp`    | `points: number`            | New users joining your server will start with `points` experience, instead of 0. |
-| `level_channel` | `channel: Channel`          | Sets where the level/role messages should be sent.                               |
-| `level_ignore`  | `channel: Channel`          | Adds or removes `channel` from the list of channels not to track experience in.  |
-| `level_message` | `message: string`           | Sets the custom `message` to be sent when a user earns a level.                  |
-| `level_roles`   | `role: Role, level: number` | Sets `role` to be assigned when a user reaches `level`.                          |
-| `level_style`   | `toggle: text \| embed`     | Toggles the level/role messages between text and embed.                          |
-| `levels`        | `toggle: on \| off`         | Toggles the level system on and off.                                             |
-| `role_message`  | `message: string`           | Sets the custom `message` to be sent when a user earns a level role.             |
+| Setting         | Inputs                      | Description                                                                                                                               |
+| --------------- | --------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------- |
+| `initial_xp`    | `points: number`            | New users joining your server will start with `points` experience, instead of 0.                                                          |
+| `level_channel` | `channel: Channel`          | Sets where the level/role messages should be sent.                                                                                        |
+| `level_decay`   | `percent: number`           | Members will lose `percent` of their experience for each day they are inactive, calculated the next time they trigger an experience gain. |
+| `level_ignore`  | `channel: Channel`          | Adds or removes `channel` from the list of channels not to track experience in.                                                           |
+| `level_message` | `message: string`           | Sets the custom `message` to be sent when a user earns a level.                                                                           |
+| `level_roles`   | `role: Role, level: number` | Sets `role` to be assigned when a user reaches `level`.                                                                                   |
+| `level_style`   | `toggle: text \| embed`     | Toggles the level/role messages between text and embed.                                                                                   |
+| `levels`        | `toggle: on \| off`         | Toggles the level system on and off.                                                                                                      |
+| `role_message`  | `message: string`           | Sets the custom `message` to be sent when a user earns a level role.                                                                      |
 
 ## Log Settings
 
