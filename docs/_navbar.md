@@ -10,6 +10,7 @@
 - [User Configuration](/user-config.md)
 - [Level Scale](/level-scale.md)
 - [Currency System](/currency.md)
+- [Ticket System](/ticket-system.md)
 - [Owner Commands](/owner-commands.md)
 
 ## [Contributing to the Bot](/contribute.md)
