@@ -9,18 +9,21 @@ There are a number of options for configuring your server.
 
 The `/config set` slash command will allow you to configure Becca's general features and behaviour for your server.
 
-| Setting              | Inputs                    | Description                                                                                                     |
-| -------------------- | ------------------------- | --------------------------------------------------------------------------------------------------------------- |
-| `appeal_link`        | `link: string`            | Provides `link` as the URL to appeal a ban, when sending a ban notification DM.                                 |
-| `blocked`            | `user: User`              | Adds or removes `user` from the list of users not permitted to interact with Becca in your server.              |
-| `emote_channels`     | `channel: Channel`        | Toggles whether `channel` should be set to emote-only (messages containing text or non-emotes will be deleted). |
-| `hearts`             | `user: User`              | Toggles whether `user` should receive automatic heart reactions on their messages.                              |
-| `report_channel`     | `channel: Channel`        | Will send message reports (through Becca's context command) to the `channel`.                                   |
-| `sass_mode`          | `toggle: on \| off`       | Turns Becca's sass mode on or off.                                                                              |
-| `suggestion_channel` | `channel: Channel`        | Suggestions made through `/community suggest` will be sent to the `channel`.                                    |
-| `ticket_category`    | `category: GuildCategory` | The `category` under which new tickets should be opened. If not set, will deactivate the ticket system.         |
-| `ticket_log_channel` | `channel: GuildText`      | The `channel` where closed tickets should be logged. If not set, will deactivate the ticket system.             |
-| `ticket_role`        | `role: Role`              | The `role` to add to all new tickets, if desired. If not set, will default to anyone with admin permissions.    |
+| Setting               | Inputs                                   | Description                                                                                                              |
+| --------------------- | ---------------------------------------- | ------------------------------------------------------------------------------------------------------------------------ |
+| `appeal_link`         | `link: string`                           | Provides `link` as the URL to appeal a ban, when sending a ban notification DM.                                          |
+| `blocked`             | `user: User`                             | Adds or removes `user` from the list of users not permitted to interact with Becca in your server.                       |
+| `emote_channels`      | `channel: Channel`                       | Toggles whether `channel` should be set to emote-only (messages containing text or non-emotes will be deleted).          |
+| `hearts`              | `user: User`                             | Toggles whether `user` should receive automatic heart reactions on their messages.                                       |
+| `report_channel`      | `channel: Channel`                       | Will send message reports (through Becca's context command) to the `channel`.                                            |
+| `sass_mode`           | `toggle: on \| off`                      | Turns Becca's sass mode on or off.                                                                                       |
+| `starboard_channel`   | `channel: GuildText \| GuildAnnouncement | The `channel` to send a copy of a message to when it has reached enough "stars".                                         |
+| `starboard_emote`     | `emote: string`                          | The `emote` to count as the "stars" for the starboard.                                                                   |
+| `starboard_threshold` | `reactions: number`                      | The number of `reactions` needed before posting to the starboard - only the `starboard_emote` reactions will be counted. |
+| `suggestion_channel`  | `channel: Channel`                       | Suggestions made through `/community suggest` will be sent to the `channel`.                                             |
+| `ticket_category`     | `category: GuildCategory`                | The `category` under which new tickets should be opened. If not set, will deactivate the ticket system.                  |
+| `ticket_log_channel`  | `channel: GuildText`                     | The `channel` where closed tickets should be logged. If not set, will deactivate the ticket system.                      |
+| `ticket_role`         | `role: Role`                             | The `role` to add to all new tickets, if desired. If not set, will default to anyone with admin permissions.             |
 
 ## Automod Settings
 
