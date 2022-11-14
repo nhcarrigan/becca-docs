@@ -66,13 +66,14 @@ The `/log set` command allows you to set which channel Becca should use for logg
 
 The `/welcome set` command allows you to configure how Becca says hello and goodbye to your server members.
 
-| Setting           | Inputs             | Description                                               |
-| ----------------- | ------------------ | --------------------------------------------------------- |
-| `custom_welcome`  | `message: string`  | The `message` to be sent when someone joins your server.  |
-| `depart_channel`  | `channel: Channel` | The `channel` to send goodbye messages in.                |
-| `join_role`       | `role: Role`       | The `role` to assign when someone joins your server.      |
-| `leave_message`   | `message: string`  | The `message` to be sent when someone leaves your server. |
-| `welcome_channel` | `channel: Channel` | The `channel` to send welcome messages in.                |
+| Setting           | Inputs                  | Description                                               |
+| ----------------- | ----------------------- | --------------------------------------------------------- |
+| `custom_welcome`  | `message: string`       | The `message` to be sent when someone joins your server.  |
+| `depart_channel`  | `channel: Channel`      | The `channel` to send goodbye messages in.                |
+| `join_role`       | `role: Role`            | The `role` to assign when someone joins your server.      |
+| `leave_message`   | `message: string`       | The `message` to be sent when someone leaves your server. |
+| `welcome_channel` | `channel: Channel`      | The `channel` to send welcome messages in.                |
+| `welcome_style`   | `toggle: text \| embed` | Sets whether join/leave messages should be text or embed. |
 
 ## Resetting a Setting
 
