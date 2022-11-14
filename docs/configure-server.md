@@ -5,85 +5,97 @@ There are a number of options for configuring your server.
 > [!NOTE]
 > Config settings are set on a per-server basis. Only moderators with the "Manage Server" permission can change the settings.
 
-The `value` column indicates the name and type of a parameter - however, do _not_ include the name/type in the command. These are provided for readability of the documentation.
-
-For example, adding a level-assigned role would look like so:
-
-![Example use of the config set command, with setting set to Level-assigned Roles and value set to "5 @Naomi's Fan (Lv.5)"](https://cdn.nhcarrigan.com/discord/config-command-example.png)
-
 ## Global Configurations
 
-The `/config set` slash command will allow you to configure Becca's features and behaviour for your server.
+The `/config set` slash command will allow you to configure Becca's general features and behaviour for your server.
 
-| Setting                | Value                          | Description                                                                                                                                                                                                |
-| ---------------------- | ------------------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Ban Appeal Config      | `appeal_link: string`          | You can provide a link to a Google Form (or another service) for appealing a ban. This link is included in the DM sent to the banned user by Becca.                                                        |
-| Blocked Users          | `user: User`                   | This will prevent the `user` from using any of Becca's commands.                                                                                                                                           |
-| Custom Leave Message   | `message: string`              | This will set the message to be sent when a user leaves your server. In the message, `{@username}` will be replaced with the user's mention, and `{@servername}` will be replaced with your server's name. |
-| Custom Welcome Message | `message: string`              | This will set the message to be sent when a user joins your server. In the message, `{@username}` will be replaced with the user's mention, and `{@servername}` will be replaced with your server's name.  |
-| Emote-only Channels    | `channel: Channel`             | This allows you to add/remove channels to the "emote-only" list. When a channel is in the emote-only list, Becca will automatically delete any message that contains _anything_ other than emotes.         |
-| Heart Users            | `user: User`                   | This will add or remove the `user` to the list of people who receive heart reactions on their messages.                                                                                                    |
-| Initial Experience     | `experience: number`           | Provided you enable the levelling system, this determines the experience users get when they first join your community.                                                                                    |
-| Join/Leave Channel     | `channel: Channel`             | This will tell Becca where to send messages when users join or leave your server.                                                                                                                          |
-| Level Log Channel      | `channel: Channel`             | This will tell Becca where to send messages when a user levels up or earns a level role.                                                                                                                   |
-| Level Message Style    | `embed \| text`                | This setting determines if the level (and role) messages should be sent as embeds or text. **Note that setting this to text WILL mean that the message can ping users/roles.**                             |
-| Level Message          | `message: string`              | Set a custom level-up message. Use `{user}` to display the user's name, `{@user}` to mention them, and `{level}` to display their new level.                                                               |
-| Level System           | `on \| off`                    | This will enable or disable the level system.                                                                                                                                                              |
-| Level-Assigned Roles   | `level: number`, `role: @role` | This will tell Becca to give users the `role` when they reach the `level`.                                                                                                                                 |
-| Level Ignore Channels  | `channel: Channel`             | This will tell Becca not to grant experience for messages sent in the provided channel. Use the command with the channel again to re-enable experience.                                                    |
-| Report Channel         | `channel: Channel`             | This tells Becca where to send the messages reported with the `report` context menu. If this is not set, Becca will refuse to perform the command.                                                         |
-| Role Message           | `message: string`              | Set a custom message when a user receives a level role. Use Use `{user}` to display the user's name, `{@user}` to mention them, `{role}` to display the role name, and `{@role}` to mention the role.      |
-| Role on Join           | `role: Role`                   | Becca will assign this `role` when a member joins your server. If you have membership screening enabled, she will not assign the `role` until they complete it.                                            |
-| Sass Mode              | `on \| off`                    | This enables specific sassy responses from Becca when the content of a message matches specific conditions.                                                                                                |
-| Suggestion Channel     | `channel: Channel`             | Sets the channel where suggestions made with the `suggest` command are sent.                                                                                                                               |
+| Setting              | Inputs              | Description                                                                                                     |
+| -------------------- | ------------------- | --------------------------------------------------------------------------------------------------------------- |
+| `appeal_link`        | `link: string`      | Provides `link` as the URL to appeal a ban, when sending a ban notification DM.                                 |
+| `blocked`            | `user: User`        | Adds or removes `user` from the list of users not permitted to interact with Becca in your server.              |
+| `emote_channels`     | `channel: Channel`  | Toggles whether `channel` should be set to emote-only (messages containing text or non-emotes will be deleted). |
+| `hearts`             | `user: User`        | Toggles whether `user` should receive automatic heart reactions on their messages.                              |
+| `report_channel`     | `channel: Channel`  | Will send message reports (through Becca's context command) to the `channel`.                                   |
+| `sass_mode`          | `toggle: on \| off` | Turns Becca's sass mode on or off.                                                                              |
+| `suggestion_channel` | `channel: Channel`  | Suggestions made through `/community suggest` will be sent to the `channel`.                                    |
 
 ## Automod Settings
-
-The `/automod antiphish` command allows you to enable Becca's anti-phishing system. This system detects when users send a scam link and takes action accordingly.
-
-| Action           | Description                                                   |
-| ---------------- | ------------------------------------------------------------- |
-| `ban`            | The user will be banned from the server.                      |
-| `kick`           | The user will be kicked from the server.                      |
-| `mute`           | The user will be muted for 24 hours.                          |
-| `none` (default) | No action will be taken - this disables the antiphish system. |
 
 The `/automod set` command will allow you to configure Becca's automatic moderation.
 
 The auto-moderation system will not run on any users who have the `Manage Messages` permission.
 
-| Setting                  | Value              | Description                                                                                                                                                                                     |
-| ------------------------ | ------------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Automodded Channels      | `channel: Channel` | Adds or removes a channel to the list of channels that Becca will automatically moderate. Pass `all` to set this to all channels.                                                               |
-| Automod Ignored Channels | `channel: Channel` | Adds or removes a channel to the list of channels that Becca will not automatically moderate. Pass `all` to set this to all channels. This setting overrides the `Automodded Channels` setting. |
-| Automod Exempt Roles     | `role: Role`       | Adds or removes a role to the list of roles that are exempt from auto-moderation.                                                                                                               |
-| Allowed Link Regex       | `regex: string`    | Adds or removes a regex that will be used to match approved links.                                                                                                                              |
-| Link Delete Message      | `message: string`  | Sets the message that will be sent to users who have links removed.                                                                                                                             |
-| Profanity Delete Message | `message: string`  | Sets the message that will be sent to users who have profanity removed.                                                                                                                         |
+| Setting               | Inputs                                | Description                                                                                                         |
+| --------------------- | ------------------------------------- | ------------------------------------------------------------------------------------------------------------------- |
+| `allowed_links`       | `regex: Regex`                        | Adds or removes a regex to the list of allowed links. Links which match one of these will not count toward automod. |
+| `antiphish`           | `action: none \| mute \| kick \| ban` | Sets the `action` to take when a user sends a scam link.                                                            |
+| `automod_channels`    | `channel: Channel`                    | Adds or removes `channel` from the list of channels that are automodded.                                            |
+| `automod_roles`       | `role: Role`                          | Adds or removes `role` from the list of roles that are ignored by automod.                                          |
+| `link_message`        | `message: string`                     | Sets the message to be sent when a message containing a link is detected.                                           |
+| `no_automod_channels` | `channel: Channel`                    | Adds or removes `channel` from the list of channels that are never automodded.                                      |
+| `profanity_message`   | `message: string`                     | Sets the message to be sent when a message containing profanity is detected.                                        |
 
-The `/automod toggle` command will toggle specific auto-moderation listeners on and off.
+## Level Settings
 
-| Setting             | Description                                            |
-| ------------------- | ------------------------------------------------------ |
-| Link Detection      | Becca will remove any message that contains a link.    |
-| Profanity Detection | Becca will remove any message that contains profanity. |
+The `/levels set` command allows you to adjust how Becca's levelling system works.
+
+| Setting         | Inputs                      | Description                                                                      |
+| --------------- | --------------------------- | -------------------------------------------------------------------------------- |
+| `initial_xp`    | `points: number`            | New users joining your server will start with `points` experience, instead of 0. |
+| `level_channel` | `channel: Channel`          | Sets where the level/role messages should be sent.                               |
+| `level_ignore`  | `channel: Channel`          | Adds or removes `channel` from the list of channels not to track experience in.  |
+| `level_message` | `message: string`           | Sets the custom `message` to be sent when a user earns a level.                  |
+| `level_roles`   | `role: Role, level: number` | Sets `role` to be assigned when a user reaches `level`.                          |
+| `level_style`   | `toggle: text \| embed`     | Toggles the level/role messages between text and embed.                          |
+| `levels`        | `toggle: on \| off`         | Toggles the level system on and off.                                             |
+| `role_message`  | `message: string`           | Sets the custom `message` to be sent when a user earns a level role.             |
 
 ## Log Settings
 
 The `/log set` command allows you to set which channel Becca should use for logging specific Discord events.
 
-| Setting           | Description                                                                |
-| ----------------- | -------------------------------------------------------------------------- |
-| Message Events    | Logs related to message edits and deletions.                               |
-| Voice Events      | Logs related to joining, leaving, muting, and deafening in a voice channel |
-| Thread Events     | Logs related to creating, archiving, and deleting threads.                 |
-| Moderation Events | Logs related to kicking, warning, banning, or muting a user.               |
-| Member Events     | Logs related to membership screening and member record updates.            |
+| Setting             | Inputs             | Description                                                        |
+| ------------------- | ------------------ | ------------------------------------------------------------------ |
+| `member_events`     | `channel: Channel` | Sets where member update events (e.g. nickname changes) should go. |
+| `message_events`    | `channel: Channel` | Sets where message events (e.g. edits/deletes) should go.          |
+| `moderation_events` | `channel: Channel` | Sets where moderation events (e.g. kicks/bans) should go.          |
+| `thread_events`     | `channel: Channel` | Sets where thread events (e.g. create/archive) should go.          |
+| `voice_events`      | `channel: Channel` | Sets where voice events (e.g. join/leave) should go.               |
+
+## Welcome Settings
+
+The `/welcome set` command allows you to configure how Becca says hello and goodbye to your server members.
+
+| Setting           | Inputs             | Description                                               |
+| ----------------- | ------------------ | --------------------------------------------------------- |
+| `custom_welcome`  | `message: string`  | The `message` to be sent when someone joins your server.  |
+| `depart_channel`  | `channel: Channel` | The `channel` to send goodbye messages in.                |
+| `join_role`       | `role: Role`       | The `role` to assign when someone joins your server.      |
+| `leave_message`   | `message: string`  | The `message` to be sent when someone leaves your server. |
+| `welcome_channel` | `channel: Channel` | The `channel` to send welcome messages in.                |
 
 ## Resetting a Setting
 
-All three configuration groups have a `reset` command to reset the value of a setting to the default (usually turning off the feature).
+Each configuration group will have a `reset` command which allows you to reset that setting to the default value.
 
 ## Viewing Your Config
 
-The `view` command under each configuration group will display the values for the given setting. Choosing `Global Settings` will show all of your values, while specific values are available to view nested settings.
+The `view` command under each configuration group will display the values for the given setting
+
+## Placeholders
+
+Certain settings that allow for custom text also allow for placeholders to use dynamic values from the event.
+
+| Setting          | Placeholder     | Value                                  |
+| ---------------- | --------------- | -------------------------------------- |
+| `role_message`   | `{user}`        | The user's username and discriminator. |
+|                  | `{role}`        | The name of the role earned.           |
+|                  | `{@user}`       | Mentions the user (does not ping).     |
+|                  | `{@role}`       | Mentions the role (does not ping).     |
+| `level_message`  | `{user}`        | The user's username and discriminator. |
+|                  | `{level}`       | The level reached.                     |
+|                  | `{@user}`       | Mentions the user (does not ping).     |
+| `custom_welcome` | `{@username}`   | The user's username.                   |
+|                  | `{@servername}` | The server's name.                     |
+| `leave_message`  | `{@username}`   | Mentions the user (does not ping).     |
+|                  | `{@servername}` | The server's name.                     |

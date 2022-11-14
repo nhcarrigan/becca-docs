@@ -6,13 +6,7 @@ Becca's primary command system has been migrated to use Discord's new slash inte
 
 The `/automod` commands are used to manage Becca's automatic moderation system.
 
-| Command     | Parameters                            | Description                                                |
-| ----------- | ------------------------------------- | ---------------------------------------------------------- |
-| `antiphish` | `action: ban \| kick \| mute \| none` | Sets the action to take when a user posts a phishing link. |
-| `reset`     | `setting: Setting`                    | Resets the specified setting to its default value.         |
-| `set`       | `setting: Setting, value: Value`      | Sets the specified setting to the specified value.         |
-| `toggle`    | `feature: Setting, enabled: on/off`   | Toggles the automod feature on or off..                    |
-| `view`      | `setting: Setting`                    | Views the current value of the specified setting.          |
+See the [automod configuration section](/configure-server.md#automod-settings) for more information.
 
 ## Becca Commands
 
@@ -69,11 +63,7 @@ The `/community` commands offer a variety of tools for engaging with your commun
 
 The `/config` commands are used to manage the [server settings](/configure-server.md). These require the `Manage Server` permission to use. Refer to that page for the valid settings and parameters.
 
-| Command | Parameters                          | Description                                           |
-| ------- | ----------------------------------- | ----------------------------------------------------- |
-| `reset` | `setting: Setting`                  | Resets the `setting` to the default value.            |
-| `set`   | `setting: Setting`, `value: string` | Sets the `setting` to the provided `value`, if valid. |
-| `view`  | `setting: Setting`                  | Shows the current values for the `setting`.           |
+See the [configuration section](/configure-server.md#global-configurations) for more information.
 
 ## Currency Commands
 
@@ -112,15 +102,17 @@ The `/games` commands are fun and silly commands to add a bit of charm to your c
 | `sus`      | `null`            | Selects an Among Us colour and declares it sus!                                                                                                     |
 | `trivia`   | `null`            | Stars a trivia game. Players will have 30 seconds to select an answer using the buttons. At the end of the timer, Becca will announce the winners.  |
 
+## Level Commands
+
+The `/levels` commands manage Becca's levelling system, which rewards users for activity.
+
+See the [level configuration section](/configure-server.md#level-settings) for more information.
+
 ## Log Commands
 
 The `/log` commands manage Becca's logging system, which tracks specific Discord events.
 
-| Command | Parameters                          | Description                                           |
-| ------- | ----------------------------------- | ----------------------------------------------------- |
-| `reset` | `setting: Setting`                  | Resets the `setting` to the default value.            |
-| `set`   | `setting: Setting`, `value: string` | Sets the `setting` to the provided `value`, if valid. |
-| `view`  | `null`                              | Shows the current values for all settings.            |
+See the [log configuration section](/configure-server.md#log-settings) for more information.
 
 ## Manage Commands
 
@@ -191,3 +183,9 @@ The `/userconfig` commands allow you to personalise some of Becca's features and
 | ----------- | -------------------------------------------------------------- | -------------------------------------------------- |
 | `levelcard` | `background: string`, `foreground: string`, `progress: string` | Configures the theme for your personal level card. |
 | `view`      | `null`                                                         | Lists your current settings.                       |
+
+## Welcome Commands
+
+The `/welcome` commands allow you to manage how Becca will greet and dismiss your users.
+
+See the [welcome configuration section](/configure-server.md#welcome-settings) for more information.
