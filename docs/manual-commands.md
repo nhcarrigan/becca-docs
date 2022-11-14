@@ -157,6 +157,16 @@ The `/mod` commands provide tools for moderating your community. These will all 
 
 The `/optout` command allows you to opt out (or back in) to features that require data collection. This command has no subcommands.
 
+## Post Commands
+
+The `/post` commnads allow you and your team to manage a post through Becca. This is great for things like a rules post. Note that `delete` and `edit` only work for posts that Becca created.
+
+| Command  | Parameters         | Description                                                            |
+| -------- | ------------------ | ---------------------------------------------------------------------- |
+| `create` | `channel: Channel` | Uses a modal to help you create a new post in the specified `channel`. |
+| `delete` | `link: string`     | Fetches the message at the `link` and deletes it.                      |
+| `edit`   | `link: string`     | Fetches the message at the `link` and allows you to edit it.           |
+
 ## Reaction Role Commands
 
 The `/reactionrole` system allows you to set up reaction roles, a common feature among Discord bots. Becca's approach, however, is a bit different. Rather than using emoji, Becca uses Discord's message buttons to assign roles. This allows her to offer faster and more reliable response times.
