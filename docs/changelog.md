@@ -4,7 +4,26 @@ Here you can see changes made across each version of Becca.
 
 Becca's updates are deployed every Sunday around 8AM Pacific Time.
 
-[Version 20](#version-20) | [Version 19](#version-19) | [Version 18](#version-18) | [Version 17](#version-17) | [Version 16](#version-16) | [Version 15](#version-15) | [Version 14](#version-14) | [Version 13](#version-13) | [Version 12](#version-12) | [Version 11](#version-11) | [Version 10](#version-10) | [Version 9](#version-9)
+[Version 21](#version-21) | [Version 20](#version-20) | [Version 19](#version-19) | [Version 18](#version-18) | [Version 17](#version-17) | [Version 16](#version-16) | [Version 15](#version-15) | [Version 14](#version-14) | [Version 13](#version-13) | [Version 12](#version-12) | [Version 11](#version-11) | [Version 10](#version-10) | [Version 9](#version-9)
+
+## Version 21
+
+### 21.0.0
+
+- Replaced `rm -rf` with `rimraf` in the `prebuild` script, allowing for easier cross-platform development work.
+- Set the DM permission on all commands to `false`, preventing Discord from exposing them at all in a DM channel.
+- Added caching through the database to store scheduled posts in the event of a restart.
+- Completely overhauled the configuration system, splitting into multiple commands for better UX.
+- Added the new `\post` commands to allow a mod team to manage the same post.
+- Migrated the project to Node.js v18.
+- Added a toggle to choose if welcome/depart messages should be text or embeds.
+- Added a new `\ticket` system.
+- Added a new starboard system.
+- Support for forum channels in the suggestion system.
+- Polls are now persistent, can be set for any desired amount of time, and are cached in the DB.
+- Added a level decay system.
+- Improved the logic for the Heptagram API calls.
+- Added channel type restrictions to all channel options.
 
 ## Version 20
 
