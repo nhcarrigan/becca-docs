@@ -11,6 +11,7 @@
 - [Level Scale](/level-scale.md)
 - [Currency System](/currency.md)
 - [Ticket System](/ticket-system.md)
+- [Channel Types](/channel-types.md)
 - [Owner Commands](/owner-commands.md)
 
 ## [Contributing to the Bot](/contribute.md)
