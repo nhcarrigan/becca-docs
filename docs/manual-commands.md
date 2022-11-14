@@ -6,13 +6,7 @@ Becca's primary command system has been migrated to use Discord's new slash inte
 
 The `/automod` commands are used to manage Becca's automatic moderation system.
 
-| Command     | Parameters                            | Description                                                |
-| ----------- | ------------------------------------- | ---------------------------------------------------------- |
-| `antiphish` | `action: ban \| kick \| mute \| none` | Sets the action to take when a user posts a phishing link. |
-| `reset`     | `setting: Setting`                    | Resets the specified setting to its default value.         |
-| `set`       | `setting: Setting, value: Value`      | Sets the specified setting to the specified value.         |
-| `toggle`    | `feature: Setting, enabled: on/off`   | Toggles the automod feature on or off..                    |
-| `view`      | `setting: Setting`                    | Views the current value of the specified setting.          |
+See the [automod configuration section](/configure-server.md#automod-settings) for more information.
 
 ## Becca Commands
 
@@ -51,29 +45,26 @@ The `/code` commands contain tools that may be helpful to developers.
 
 The `/community` commands offer a variety of tools for engaging with your community.
 
-| Command       | Parameters                                                                                     | Description                                                                                                                                                                                         |
-| ------------- | ---------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| `leaderboard` | `null`                                                                                         | Returns the server's leaderboard, provided the level system is enabled.                                                                                                                             |
-| `level`       | `user?: User`                                                                                  | Returns your current level information, or the `user`'s level information.                                                                                                                          |
-| `motivation`  | `null`                                                                                         | Gives a motivational quote.                                                                                                                                                                         |
-| `poll`        | `question: string`, `optionA: string`, `optionB: string`, `optionC: string`, `optionD: string` | Creates an embed with the question and four options. Adds buttons which users can click to vote for an option. Closes the poll after 30 minutes and displays the results. Users can only vote once. |
-| `schedule`    | `time: number`, `channel: Channel`, `message: string`                                          | Provided you have permission to do so, schedules your `message` to be sent in the `channel` after `time` minutes have passed.                                                                       |
-| `server`      | `null`                                                                                         | Returns detailed information about the current Discord server.                                                                                                                                      |
-| `star`        | `user: User`, `reason: string`                                                                 | Gives the `user` a shiny gold star for the given `reason`.                                                                                                                                          |
-| `starcount`   | `null`                                                                                         | Generates an embed with the top ten users by number of stars received, and notes your rank on that leaderboard.                                                                                     |
-| `suggest`     | `suggestion: string`                                                                           | If the server has set up a suggestion channel, generates an embed in that channel with your `suggestion`. Adds reactions for members to vote on the suggestion.                                     |
-| `topic`       | `null`                                                                                         | Provides a random conversation starter.                                                                                                                                                             |
-| `userinfo`    | `user?: User`                                                                                  | Returns basic information on the `user`'s (or your) Discord account.                                                                                                                                |
+| Command       | Parameters                                                                                                                         | Description                                                                                                                                                                                                                                         |
+| ------------- | ---------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `leaderboard` | `null`                                                                                                                             | Returns the server's leaderboard, provided the level system is enabled.                                                                                                                                                                             |
+| `level`       | `user?: User`                                                                                                                      | Returns your current level information, or the `user`'s level information.                                                                                                                                                                          |
+| `motivation`  | `null`                                                                                                                             | Gives a motivational quote.                                                                                                                                                                                                                         |
+| `poll`        | `duration: number`, `unit: string`, `question: string`, `optionA: string`, `optionB: string`, `optionC: string`, `optionD: string` | Creates an embed with the question and four options. Adds buttons which users can click to vote for an option. Closes the poll when someone tries to vote after `duration` `units` have passed, and displays the results. Users can only vote once. |
+| `schedule`    | `time: number`, `channel: noVoiceChannel`, `message: string`                                                                       | Provided you have permission to do so, schedules your `message` to be sent in the `channel` after `time` minutes have passed.                                                                                                                       |
+| `server`      | `null`                                                                                                                             | Returns detailed information about the current Discord server.                                                                                                                                                                                      |
+| `star`        | `user: User`, `reason: string`                                                                                                     | Gives the `user` a shiny gold star for the given `reason`.                                                                                                                                                                                          |
+| `starcount`   | `null`                                                                                                                             | Generates an embed with the top ten users by number of stars received, and notes your rank on that leaderboard.                                                                                                                                     |
+| `suggest`     | `suggestion: string`                                                                                                               | If the server has set up a suggestion channel, generates an embed in that channel with your `suggestion`. Adds reactions for members to vote on the suggestion.                                                                                     |
+| `ticket`      | `reason: string`                                                                                                                   | If the ticket system is configured, creates a new ticket for the given `reason`.                                                                                                                                                                    |
+| `topic`       | `null`                                                                                                                             | Provides a random conversation starter.                                                                                                                                                                                                             |
+| `userinfo`    | `user?: User`                                                                                                                      | Returns basic information on the `user`'s (or your) Discord account.                                                                                                                                                                                |
 
 ## Config Commands
 
 The `/config` commands are used to manage the [server settings](/configure-server.md). These require the `Manage Server` permission to use. Refer to that page for the valid settings and parameters.
 
-| Command | Parameters                          | Description                                           |
-| ------- | ----------------------------------- | ----------------------------------------------------- |
-| `reset` | `setting: Setting`                  | Resets the `setting` to the default value.            |
-| `set`   | `setting: Setting`, `value: string` | Sets the `setting` to the provided `value`, if valid. |
-| `view`  | `setting: Setting`                  | Shows the current values for the `setting`.           |
+See the [configuration section](/configure-server.md#global-configurations) for more information.
 
 ## Currency Commands
 
@@ -112,15 +103,17 @@ The `/games` commands are fun and silly commands to add a bit of charm to your c
 | `sus`      | `null`            | Selects an Among Us colour and declares it sus!                                                                                                     |
 | `trivia`   | `null`            | Stars a trivia game. Players will have 30 seconds to select an answer using the buttons. At the end of the timer, Becca will announce the winners.  |
 
+## Level Commands
+
+The `/levels` commands manage Becca's levelling system, which rewards users for activity.
+
+See the [level configuration section](/configure-server.md#level-settings) for more information.
+
 ## Log Commands
 
 The `/log` commands manage Becca's logging system, which tracks specific Discord events.
 
-| Command | Parameters                          | Description                                           |
-| ------- | ----------------------------------- | ----------------------------------------------------- |
-| `reset` | `setting: Setting`                  | Resets the `setting` to the default value.            |
-| `set`   | `setting: Setting`, `value: string` | Sets the `setting` to the provided `value`, if valid. |
-| `view`  | `null`                              | Shows the current values for all settings.            |
+See the [log configuration section](/configure-server.md#log-settings) for more information.
 
 ## Manage Commands
 
@@ -165,13 +158,23 @@ The `/mod` commands provide tools for moderating your community. These will all 
 
 The `/optout` command allows you to opt out (or back in) to features that require data collection. This command has no subcommands.
 
+## Post Commands
+
+The `/post` commnads allow you and your team to manage a post through Becca. This is great for things like a rules post. Note that `delete` and `edit` only work for posts that Becca created.
+
+| Command  | Parameters                | Description                                                            |
+| -------- | ------------------------- | ---------------------------------------------------------------------- |
+| `create` | `channel: noVoiceChannel` | Uses a modal to help you create a new post in the specified `channel`. |
+| `delete` | `link: string`            | Fetches the message at the `link` and deletes it.                      |
+| `edit`   | `link: string`            | Fetches the message at the `link` and allows you to edit it.           |
+
 ## Reaction Role Commands
 
 The `/reactionrole` system allows you to set up reaction roles, a common feature among Discord bots. Becca's approach, however, is a bit different. Rather than using emoji, Becca uses Discord's message buttons to assign roles. This allows her to offer faster and more reliable response times.
 
-| Command  | Parameters                                             | Description                                                                                                                                                                |
-| -------- | ------------------------------------------------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| `create` | `channel: Channel`, `header: string`, `roles: ...Role` | Creates a message in the given `channel`, using the `header` as the content. Takes up to 20 role parameters, and creates a button for each one so users can add/remove it. |
+| Command  | Parameters                                                    | Description                                                                                                                                                                |
+| -------- | ------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `create` | `channel: noVoiceChannel`, `header: string`, `roles: ...Role` | Creates a message in the given `channel`, using the `header` as the content. Takes up to 20 role parameters, and creates a button for each one so users can add/remove it. |
 
 ## Trigger Commands
 
@@ -191,3 +194,9 @@ The `/userconfig` commands allow you to personalise some of Becca's features and
 | ----------- | -------------------------------------------------------------- | -------------------------------------------------- |
 | `levelcard` | `background: string`, `foreground: string`, `progress: string` | Configures the theme for your personal level card. |
 | `view`      | `null`                                                         | Lists your current settings.                       |
+
+## Welcome Commands
+
+The `/welcome` commands allow you to manage how Becca will greet and dismiss your users.
+
+See the [welcome configuration section](/configure-server.md#welcome-settings) for more information.

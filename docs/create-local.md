@@ -11,7 +11,7 @@ Once you have signed in to GitHub, navigate to our [GitHub repository](https://g
 ## Install the Necessary Software
 
 > [!TIP]
-> Some of the tooling relies on a UNIX based environment. If you are developing on Windows, we recommend using Git Bash or WSL2 to avoid errors.
+> While we make our best effort to maintain a friendly developer experience across all platforms, please note that our primary environment is Ubuntu via WSL2 - some things may not work as expected in other environments.
 
 Using your preferred development environment (if you do not have one, we recommend either Visual Studio Code (VSCode) or Atom), load the directory containing your copy of Becca's files.
 

@@ -75,6 +75,21 @@ Becca keeps a track of moderation actions taken against a user in a server. This
 
 **Optout**: To preserve the integrity of our moderation system, this data (which does not include PII) cannot be opted out of or deleted.
 
+### Scheduled Post System
+
+When you use the `/community schedule` command to schedule a post, Becca will store the post information in the database until the post is sent.
+
+- `Server ID`: Becca needs to know which server to send the post in.
+- `User ID`: Becca uses your ID to ping you when the post is sent.
+- `Scheduled Timestamp`: Becca tracks the timestamp when the post is scheduled to go out.
+- `Channel ID`: Becca needs to know which channel to send the post in.
+- `Language`: Becca uses the language setting from your server for the translatable portions of the embed.
+- `Message`: Becca needs to save the message you intend to send.
+
+**Visibility**: This data is not visible when stored, and is only visible to members who can see the channel when the post is sent.
+
+**Optout**: To optout, refrain from using the `/community schedule` command.
+
 ### Server Configuration System
 
 Becca stores the server ID and server name to associate a Discord server with it's configuration settings. This data is used to enable/disable/configure many of Becca's features.
