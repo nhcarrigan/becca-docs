@@ -8,6 +8,12 @@ Becca's updates are deployed every Sunday around 8AM Pacific Time.
 
 ## Version 21
 
+### 21.0.1
+
+- Restore erroneously removed `/automod links` and `/automod profanity` commands.
+- Remove Heptagram API due to too many false positives.
+- Patch ticket system logic to only run in ticket category, avoiding conflicts with other ticket bots.
+
 ### 21.0.0
 
 - Replaced `rm -rf` with `rimraf` in the `prebuild` script, allowing for easier cross-platform development work.
