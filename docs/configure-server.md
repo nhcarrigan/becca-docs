@@ -37,11 +37,11 @@ The auto-moderation system will not run on any users who have the `Manage Messag
 | `antiphish`           | `action: none \| mute \| kick \| ban` | Sets the `action` to take when a user sends a scam link.                                                            |
 | `automod_channels`    | `channel: allChannel`                 | Adds or removes `channel` from the list of channels that are automodded.                                            |
 | `automod_roles`       | `role: Role`                          | Adds or removes `role` from the list of roles that are ignored by automod.                                          |
+| `links`               | `toggle: on \| off`                   | Toggles the Link Detection system between on and off                                                                |
 | `link_message`        | `message: string`                     | Sets the message to be sent when a message containing a link is detected.                                           |
 | `no_automod_channels` | `channel: allChannel`                 | Adds or removes `channel` from the list of channels that are never automodded.                                      |
-| `profanity_message`   | `message: string`                     | Sets the message to be sent when a message containing profanity is detected.                                        |
-| `links`               | `toggle: on \| off`                   | Toggles the Link Detection system between on and off                                                                |
 | `profanity`           | `toggle: on \| off`                   | Toggles the Profanity Detection system between on and off                                                          |
+| `profanity_message`   | `message: string`                     | Sets the message to be sent when a message containing profanity is detected.                                        |
 
 ## Level Settings
 
