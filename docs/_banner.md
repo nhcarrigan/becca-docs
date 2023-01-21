@@ -1,1 +1,1 @@
-[Join our Support Server](https://chat.nhcarrigan.com)
+# [Join our Support Server](https://chat.nhcarrigan.com)
