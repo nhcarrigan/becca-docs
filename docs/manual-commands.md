@@ -28,7 +28,7 @@ The `/becca` commands relate to information about Becca herself.
 | `profile`     | `null`       | Returns a link to Becca's profile page.                                                                                                                                                                                   |
 | `stats`       | `view: Stat` | Provides a leaderboard for the chosen `view`                                                                                                                                                                              |
 | `translators` | `null`       | Lists the wonderful folks who have helped translate Becca.                                                                                                                                                                |
-| `updates`     | `null`       | Displays the latest changes in Becca's code, the next expected release date, and the link to the change log.                                                                                                              |
+| `updates`     | `null`       | Displays the latest changes in Becca's code and the link to the change log.                                                                                                                                               |
 | `uptime`      | `null`       | Returns the time since Becca came online.                                                                                                                                                                                 |
 
 ## Code Commands
