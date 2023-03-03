@@ -28,7 +28,7 @@ The `/becca` commands relate to information about Becca herself.
 | `profile`     | `null`       | Returns a link to Becca's profile page.                                                                                                                                                                                   |
 | `stats`       | `view: Stat` | Provides a leaderboard for the chosen `view`                                                                                                                                                                              |
 | `translators` | `null`       | Lists the wonderful folks who have helped translate Becca.                                                                                                                                                                |
-| `updates`     | `null`       | Displays the latest changes in Becca's code, the next expected release date, and the link to the change log.                                                                                                              |
+| `updates`     | `null`       | Displays the latest changes in Becca's code and the link to the change log.                                                                                                                                               |
 | `uptime`      | `null`       | Returns the time since Becca came online.                                                                                                                                                                                 |
 
 ## Code Commands
@@ -142,6 +142,8 @@ The `/misc` commands are things that did not fit in to any other category.
 
 The `/mod` commands provide tools for moderating your community. These will all log to your moderation log channel. When a user is the target of a moderation action, Becca will attempt to DM them to notify them of the action, with the `reason` that is provided.
 
+The audit log entry will include the moderator who performed the action and the reason provided.
+
 > [!NOTE]
 > If the target `user` also has the requisite permissions to use the command, the command will not work on them.
 
@@ -151,6 +153,7 @@ The `/mod` commands provide tools for moderating your community. These will all 
 | `kick`    | `user: User`, `reason: string`                                     | Kicks the `user` fromt he server for the given `reason`.                                                             |
 | `history` | `user: User`                                                       | Shows an embed with the number of each action that the `user` has received.                                          |
 | `mute`    | `user: User`, `duration: number`, `unit: string`, `reason: string` | Issues a Discord timeout to the `user` for the given `duration` in `unit`s (i.e. 3 days), for the provided `reason`. |
+| `unban`   | `user: User`, `reason: string`                                     | Unbans the `user` from the server for the given `reason`.                                                            |
 | `unmute`  | `user: User`, `reason: string`                                     | Removes the Discord timeout on the `user` for the given `reason`.                                                    |
 | `warn`    | `user: User`, `reason: string`                                     | Issues a warning to the `user` for the given `reason`, and adds that warning to their record.                        |
 

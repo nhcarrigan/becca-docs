@@ -8,6 +8,15 @@ Becca's updates are deployed every Sunday around 8AM Pacific Time.
 
 ## Version 21
 
+### 21.1.0
+
+- Replaced the `donate.naomi.lgbt` link in the embed footers with the `chat.naomi.lgbt` link to point people to our support server.
+- Added a `/mod unban` command, and the corresponding tracking for the `/mod history`.
+- Updated moderator commands to include the responsible moderator in the audit log.
+- Updated mongoose to v7 with breaking changes.
+- Audited `npm` dependencies.
+- Tweaked the layout for the `/becca updates` command and removed the scheduled release date.
+
 ### 21.0.1
 
 - Restore erroneously removed `/automod links` and `/automod profanity` commands.
