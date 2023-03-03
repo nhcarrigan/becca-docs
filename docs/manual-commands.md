@@ -151,6 +151,7 @@ The `/mod` commands provide tools for moderating your community. These will all 
 | `kick`    | `user: User`, `reason: string`                                     | Kicks the `user` fromt he server for the given `reason`.                                                             |
 | `history` | `user: User`                                                       | Shows an embed with the number of each action that the `user` has received.                                          |
 | `mute`    | `user: User`, `duration: number`, `unit: string`, `reason: string` | Issues a Discord timeout to the `user` for the given `duration` in `unit`s (i.e. 3 days), for the provided `reason`. |
+| `unban`   | `user: User`, `reason: string`                                     | Unbans the `user` from the server for the given `reason`.                                                            |
 | `unmute`  | `user: User`, `reason: string`                                     | Removes the Discord timeout on the `user` for the given `reason`.                                                    |
 | `warn`    | `user: User`, `reason: string`                                     | Issues a warning to the `user` for the given `reason`, and adds that warning to their record.                        |
 
