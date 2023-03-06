@@ -11,6 +11,7 @@ Becca's updates are deployed every Sunday around 8AM Pacific Time.
 ### 21.2.0
 
 - Added message count tracking to display on goodbye messages.
+- Add permission validation to the settings.
 
 ### 21.1.0
 
