@@ -8,6 +8,10 @@ Becca's updates are deployed every Sunday around 8AM Pacific Time.
 
 ## Version 21
 
+### 21.2.0
+
+- Added message count tracking to display on goodbye messages.
+
 ### 21.1.0
 
 - Replaced the `donate.naomi.lgbt` link in the embed footers with the `chat.naomi.lgbt` link to point people to our support server.
