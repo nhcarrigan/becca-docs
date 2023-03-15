@@ -12,6 +12,8 @@ Becca's updates are deployed every Sunday around 8AM Pacific Time.
 
 - Added event listener for audit logs, to allow for tracking of manual moderation actions.
 - Added event listener for automod, to allow for tracking of automod mutes.
+- Added message count tracking to display on goodbye messages.
+- Add permission validation to the settings.
 
 ### 21.1.0
 
