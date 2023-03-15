@@ -63,6 +63,18 @@ _If enabled in the server_, Becca will track message activity. Becca does not st
 
 **Optout**: You can opt out of this data collection by using the `/optout` command, or by request in our [support server](https://chat.nhcarrigan.com). Your level data for a server is automatically deleted if you leave that server.
 
+### Message Counts
+
+Becca keeps a count of the number of messages you have sent in a particular server. This data is used to display activity when a member leaves the server.
+
+- `Server ID`: Becca uses the server ID to associate a record with a server.
+- `User ID`: Becca uses your Discord user ID to identify you and associate the database record with your account.
+- `Message Count`: Becca tracks the number of messages you have sent in a server.
+
+**Visibility**: This data is visible upon leaving a server. Keep in mind that message counts are also visible through Discord's native search feature.
+
+**Optout**: As this data is not personally identifiable, it cannot be opted out of or deleted. This data is automatically deleted when you leave a server. This data is also visible through Discord's native search feature.
+
 ### Moderation History
 
 Becca keeps a track of moderation actions taken against a user in a server. This data is used to facilitate future moderation decisions.

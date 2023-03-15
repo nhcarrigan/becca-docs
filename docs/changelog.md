@@ -8,6 +8,13 @@ Becca's updates are deployed every Sunday around 8AM Pacific Time.
 
 ## Version 21
 
+### 21.2.0
+
+- Added event listener for audit logs, to allow for tracking of manual moderation actions.
+- Added event listener for automod, to allow for tracking of automod mutes.
+- Added message count tracking to display on goodbye messages.
+- Add permission validation to the settings.
+
 ### 21.1.0
 
 - Replaced the `donate.naomi.lgbt` link in the embed footers with the `chat.naomi.lgbt` link to point people to our support server.
