@@ -8,8 +8,8 @@
   },
   "private": true,
   "engines": {
-    "node": "^18.0.0",
-    "npm": "^9.0.0"
+    "node": "18.15.0",
+    "npm": "9.5.0"
   },
   "dependencies": {
     "docsify-cli": "4.4.4"
