@@ -8,6 +8,11 @@ Becca's updates are deployed every Sunday around 8AM Pacific Time.
 
 ## Version 21
 
+### 21.2.1
+
+- Updated mod actions to include the actioning moderator in the reason field.
+- Patched an error in the permission validation for settings.
+
 ### 21.2.0
 
 - Added event listener for audit logs, to allow for tracking of manual moderation actions.
