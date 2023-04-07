@@ -15,4 +15,4 @@ You may navigate to the different sections of this documentation using the sideb
 
 - [Join our Support Server](https://chat.nhcarrigan.com)
 
-- [Connect with us on Twitter](https://twitter.com/becca_lyria)
+- [Connect with us on Mastodon](https://mastodon.naomi.lgbt/@becca)
