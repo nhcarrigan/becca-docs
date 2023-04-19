@@ -8,6 +8,14 @@ Becca's updates are deployed every Sunday around 8AM Pacific Time.
 
 ## Version 21
 
+### 21.3.0
+
+- Updated the currency commands to use Discord timestamps for the cooldowns.
+- Replaced our Twitter link with our Mastodon link.
+- Updated environment validation to allow Orbit and Habitica keys to be optional.
+- Updated default mongo url to use IPv4.
+- Updated linter configs to use our new global config packages.
+
 ### 21.2.1
 
 - Updated mod actions to include the actioning moderator in the reason field.
