@@ -1,7 +1,7 @@
 {
   "name": "becca-lyria",
   "version": "21.2.1",
-  "license": "AGPL-3.0-or-later",
+  "license": "MOZ-2.0",
   "scripts": {
     "lint": "markdownlint ./docs/**/*.md",
     "start": "docsify serve ./docs -o --port 3200"
