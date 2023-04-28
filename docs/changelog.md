@@ -8,6 +8,12 @@ Becca's updates are deployed every Sunday around 8AM Pacific Time.
 
 ## Version 21
 
+### 21.4.0
+
+- Began preparations for the migration from mongoose to Prisma.
+  - This includes a migration of the structure of server triggers in the database.
+- Updated the owner commands to have a prefix, to avoid accidental triggers.
+
 ### 21.3.0
 
 - Updated the currency commands to use Discord timestamps for the cooldowns.
