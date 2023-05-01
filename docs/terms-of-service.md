@@ -137,4 +137,4 @@ We reserve the right, at our sole discretion, to update, change or replace any p
 
 ## SECTION 18 - CONTACT INFORMATION
 
-Questions about the Terms of Service should be sent to us at contact@beccalyria.com.
+Questions about the Terms of Service should be sent to us via [Discord](https://chat.nhcarrigan.com).
