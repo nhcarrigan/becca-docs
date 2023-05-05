@@ -4,38 +4,52 @@ The use of this application ("Becca") in a server requires the collection of som
 
 ## Access to Data
 
-Access to Data is only permitted to Becca's developers, and only in the scope required for the development, testing, and implementation of features for Becca. Data is not sold, provided to, or shared with any third party, except where required by law or a Terms of Service agreement. You may request a copy of your data via [our support server](https://chat.nhcarrigan.com) or [email](mailto:privacy@beccalyria.com).
+Access to Data are only permitted to Becca's developers, and only in the scope required for the development, testing, and implementation of features for Becca. Data are not sold, provided to, or shared with any third party, except where required by law or a Terms of Service agreement. You may request a copy of your data via [our support server](https://chat.nhcarrigan.com) or [email](mailto:privacy@beccalyria.com).
 
 ## Storage of Data
 
-Data is stored in a MongoDB database. The database is secured to prevent external access, however no guarantee is provided and Becca's owners assume no liability for the unintentional or malicious breach of Data. In the event of an unauthorised Data access, users will be notified through the Discord client application.
+Data are stored in a MongoDB database. The database is secured to prevent external access, however no guarantee is provided and Becca's owners assume no liability for the unintentional or malicious breach of Data. In the event of an unauthorised Data access, users will be notified through the Discord client application.
 
 ## Off-Platform Data
 
 Becca collects the following data for the following purposes. These data are stored in our database.
 
+### Analytics
+
+Becca collects anonymous analytics to help us identify where best to focus on new features and maintenance.
+
+- `Errors`: Becca counts how many errors are encountered, and whether they are handled or unhandled.
+- `Guilds`: Becca counts how many Discord servers she is in.
+- `Members`: Becca counts how many Discord users she serves.
+- `Commands`: Becca counts how many times each command is used.
+- `Events`: Becca counts how many gateway events she receives from Discord.
+
+**Visibility**: These data are publicly available on our analytics dashboard.
+
+**Optout**: As these data are completely anonymous, you cannot opt out of them.
+
 ### Activity System
 
-Becca tracks the number of times you use a command or component. This data is used to identify users who interact with the bot more.
+Becca tracks the number of times you use a command or component. These data are used to identify users who interact with the bot more.
 
 - `User ID`: Becca uses your Discord user ID to identify you and associate the database record with your account.
 - `Activity`: Becca tracks the number of times you have used an application command (slash command, button, context menu, select menu). Becca does not store any specific information about those commands, just the counts.
 
-**Visibility**: This data is publicly visible through the `activity` context menu option.
+**Visibility**: These data are publicly visible through the `activity` context menu option.
 
-**Optout**: You can opt out of this data collection with the `/optout` command, or by request in our [support server](https://chat.nhcarrigan.com). This data is not automatically deleted, but can be deleted upon request in our [support server](https://chat.nhcarrigan.com).
+**Optout**: You can opt out of this data collection with the `/optout` command, or by request in our [support server](https://chat.nhcarrigan.com). These data are not automatically deleted, but can be deleted upon request in our [support server](https://chat.nhcarrigan.com).
 
 ### Currency System
 
-Becca tracks your total currency value and the last time you used a currency command. This data is used to manage the currency-based rewards for our support server, and for the cooldown systems on currency commands.
+Becca tracks your total currency value and the last time you used a currency command. These data are used to manage the currency-based rewards for our support server, and for the cooldown systems on currency commands.
 
 - `User ID`: Becca uses your Discord user ID to identify you and associate the database record with your account.
 - `Currency Total`: Becca tracks your currency total.
 - `Command Usage`: Becca tracks when you last used each currency command for the cooldown system.
 
-**Visibility**: This data is not publicly visible, but will be seen by other members when you use the `/currency view` command.
+**Visibility**: These data are not publicly visible, but will be seen by other members when you use the `/currency view` command.
 
-**Optout**: You can opt out of this data collection by refraining from using the `/currency` commands, or by using the `/optout` command, or by request in our [support server](https://chat.nhcarrigan.com). This data is not automatically deleted, but can be deleted upon request in our [support server](https://chat.nhcarrigan.com).
+**Optout**: You can opt out of this data collection by refraining from using the `/currency` commands, or by using the `/optout` command, or by request in our [support server](https://chat.nhcarrigan.com). These data are not automatically deleted, but can be deleted upon request in our [support server](https://chat.nhcarrigan.com).
 
 ### Emote System
 
@@ -45,13 +59,13 @@ Becca tracks the number of times you have been the target of an `/emote` command
 - `User Name`: Becca stores your latest username and discriminator to render the data.
 - `Emote Counts`: Becca keeps a count of the number of emotes you've received.
 
-**Visibility**: This data is publicly visible when using an `/emote` command.
+**Visibility**: These data are publicly visible when using an `/emote` command.
 
-**Optout**: You can opt out of this data collection by using the `/optout` command, or by request in our [support server](https://chat.nhcarrigan.com). This data is not automatically deleted, but can be deleted upon request in our [support server](https://chat.nhcarrigan.com).
+**Optout**: You can opt out of this data collection by using the `/optout` command, or by request in our [support server](https://chat.nhcarrigan.com). These data are not automatically deleted, but can be deleted upon request in our [support server](https://chat.nhcarrigan.com).
 
 ### Level System
 
-_If enabled in the server_, Becca will track message activity. Becca does not store the message content, but looks at the length of the content as part of the experience point calculation. This data is stored to allow server members to see their level, the top 10 active members, and for server managers to provide roles and other perks based on user engagement.
+_If enabled in the server_, Becca will track message activity. Becca does not store the message content, but looks at the length of the content as part of the experience point calculation. These data are stored to allow server members to see their level, the top 10 active members, and for server managers to provide roles and other perks based on user engagement.
 
 - `User ID`: Becca uses your Discord user ID to identify you and associate the database record with your account.
 - `User Name`: Becca stores your latest username and discriminator to construct the levels leaderboard.
@@ -59,33 +73,33 @@ _If enabled in the server_, Becca will track message activity. Becca does not st
 - `Experience Points`: Becca awards experience points based on your message activity. Becca does _not_ store message content or metadata.
 - `Last Seen`: Becca tracks the last time you were seen sending a message in the server for the cooldown and the level command.
 
-**Visibility**: This data is publicly visible through the `/community level` and `/community leaderboard` commands.
+**Visibility**: These data are publicly visible through the `/community level` and `/community leaderboard` commands.
 
 **Optout**: You can opt out of this data collection by using the `/optout` command, or by request in our [support server](https://chat.nhcarrigan.com). Your level data for a server is automatically deleted if you leave that server.
 
 ### Message Counts
 
-Becca keeps a count of the number of messages you have sent in a particular server. This data is used to display activity when a member leaves the server.
+Becca keeps a count of the number of messages you have sent in a particular server. These data are used to display activity when a member leaves the server.
 
 - `Server ID`: Becca uses the server ID to associate a record with a server.
 - `User ID`: Becca uses your Discord user ID to identify you and associate the database record with your account.
 - `Message Count`: Becca tracks the number of messages you have sent in a server.
 
-**Visibility**: This data is visible upon leaving a server. Keep in mind that message counts are also visible through Discord's native search feature.
+**Visibility**: These data are visible upon leaving a server. Keep in mind that message counts are also visible through Discord's native search feature.
 
-**Optout**: As this data is not personally identifiable, it cannot be opted out of or deleted. This data is automatically deleted when you leave a server. This data is also visible through Discord's native search feature.
+**Optout**: As These data are not personally identifiable, it cannot be opted out of or deleted. These data are automatically deleted when you leave a server. These data are also visible through Discord's native search feature.
 
 ### Moderation History
 
-Becca keeps a track of moderation actions taken against a user in a server. This data is used to facilitate future moderation decisions.
+Becca keeps a track of moderation actions taken against a user in a server. These data are used to facilitate future moderation decisions.
 
 - `Server ID`: Becca uses the server ID to associate a record with a server.
 - `User ID`: Becca uses your Discord user ID to identify you and associate the database record with your account.
 - `Moderation Actions`: Becca tracks the number of times a moderation action has been applied. Becca does not track the reasons for a moderation action.
 
-**Visibility**: This data is only visible to members of a server who have the `Kick Members`, `Moderate Members`, or `Ban Members` permission. Data from one server is not visible in another.
+**Visibility**: These data are only visible to members of a server who have the `Kick Members`, `Moderate Members`, or `Ban Members` permission. Data from one server is not visible in another.
 
-**Optout**: To preserve the integrity of our moderation system, this data (which does not include PII) cannot be opted out of or deleted.
+**Optout**: To preserve the integrity of our moderation system, these data (which do not include PII) cannot be opted out of or deleted.
 
 ### Scheduled Post System
 
@@ -98,57 +112,57 @@ When you use the `/community schedule` command to schedule a post, Becca will st
 - `Language`: Becca uses the language setting from your server for the translatable portions of the embed.
 - `Message`: Becca needs to save the message you intend to send.
 
-**Visibility**: This data is not visible when stored, and is only visible to members who can see the channel when the post is sent.
+**Visibility**: These data are not visible when stored, and is only visible to members who can see the channel when the post is sent.
 
 **Optout**: To optout, refrain from using the `/community schedule` command.
 
 ### Server Configuration System
 
-Becca stores the server ID and server name to associate a Discord server with it's configuration settings. This data is used to enable/disable/configure many of Becca's features.
+Becca stores the server ID and server name to associate a Discord server with it's configuration settings. These data are used to enable/disable/configure many of Becca's features.
 
 - `Server ID`: Becca uses the Server ID to associate the data with your server.
 - `Server Name`: Becca uses the server name for developers to investigate configuration issues.
 - `Configuration`: Becca stores your server's [configuration data](configure-server.md).
 
-**Visibility**: This data is visible through the `/config`, `/automod`, and `/log` commands _only_ for members with the `Manage Server` permission.
+**Visibility**: These data are visible through the `/config`, `/automod`, and `/log` commands _only_ for members with the `Manage Server` permission.
 
-**Optout**: You can opt out of this data collection by removing Becca from your server. This data is automatically deleted when Becca leaves a server.
+**Optout**: You can opt out of this data collection by removing Becca from your server. These data are automatically deleted when Becca leaves a server.
 
 ### Star System
 
-Becca tracks the total number of stars each user has received in a server. This data is used for server members to recognise other members' contributions, and for managers to offer perks based on those contributions.
+Becca tracks the total number of stars each user has received in a server. These data are used for server members to recognise other members' contributions, and for managers to offer perks based on those contributions.
 
 - `User ID`: Becca uses your Discord user ID to identify you and associate the database record with your account.
 - `User Name`: Becca stores your latest username and discriminator to construct the star count leaderboard with.
 - `Avatar`: Becca stores your latest avatar URL for use on the web view.
 - `Star Total`: Becca tracks your star total.
 
-**Visibility**: This data is publicly visible through the `/community starcount` command.
+**Visibility**: These data are publicly visible through the `/community starcount` command.
 
 **Optout**: You can opt out of this data collection by using the `/optout` command, or by request in our [support server](https://chat.nhcarrigan.com). Your data for a specific server is automatically deleted when you leave that server.
 
 ### Usage Tracking
 
-Becca tracks an anonymous total count of the usage of each command/subcommand. This data is used to plan future development features and deprecations.
+Becca tracks an anonymous total count of the usage of each command/subcommand. These data are used to plan future development features and deprecations.
 
 - `Command/Subcommand`: Becca tracks the name of the command and subcommand used.
 - `Uses`: Becca tracks the number of times that command/subcommand has been used.
 
-**Visibility**: This data is publicly visible through the `/becca stats` command, as well as the [dashboard](https://dash.beccalyria.com?utm_source=docs&utm_medium=privacy-policy).
+**Visibility**: These data are publicly visible through the `/becca stats` command, as well as the [dashboard](https://dash.beccalyria.com?utm_source=docs&utm_medium=privacy-policy).
 
-**Optout**: As this data is entirely anonymous, there is no opt-out or deletion available.
+**Optout**: As These data are entirely anonymous, there is no opt-out or deletion available.
 
 ### Vote Tracking
 
-Becca tracks the number of times a user votes for our support server or bot on top.gg. This data is used for potential perks and rewards.
+Becca tracks the number of times a user votes for our support server or bot on top.gg. These data are used for potential perks and rewards.
 
 - `User ID`: Becca uses your Discord user ID to identify you and to associate the data with your account.
 - `Server Votes`: Becca counts the number of times you have voted for our support server on top.gg.
 - `Bot Votes`: Becca counts the number of times you have voted for her on top.gg.
 
-**Visibility**: This data is publicly visible through the `/becca stats` command.
+**Visibility**: These data are publicly visible through the `/becca stats` command.
 
-**Optout**: You can opt out of this data collection by refraining from voting for the bot/server, or by using the `/optout` command, or by request in our [support server](https://chat.nhcarrigan.com). This data is not automatically deleted, but can be deleted upon request in our [support server](https://chat.nhcarrigan.com).
+**Optout**: You can opt out of this data collection by refraining from voting for the bot/server, or by using the `/optout` command, or by request in our [support server](https://chat.nhcarrigan.com). These data are not automatically deleted, but can be deleted upon request in our [support server](https://chat.nhcarrigan.com).
 
 ## On-Platform Data
 
@@ -162,7 +176,7 @@ By inviting Becca to your Discord Server, you agree that information may be expo
 - The Server Owner's Name and ID
 - Information related to errors generated in the server.
 
-**Visibility**: This data is only visible to members of the development and support team.
+**Visibility**: These data are only visible to members of the development and support team.
 
 **Optout**: You can opt out of this data collection by removing Becca from your server.
 
@@ -183,7 +197,7 @@ When you submit feedback through the `/becca feedback` command, the following in
 - Your user tag and avatar.
 - The name of the server you used the command in.
 
-**Visibility**: This data is visible to members of our support server.
+**Visibility**: These data are visible to members of our support server.
 
 **Optout**: You can opt out of this by not using the `/becca feedback` command. You can also join the support server to request previously sent feedback be removed.
 
