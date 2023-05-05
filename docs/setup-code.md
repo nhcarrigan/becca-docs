@@ -52,15 +52,9 @@ These values are necessary for the overall operation of the bot.
 
 - `CURRENCY_WH` (REQUIRED) - This is the URL for the Discord webhook. Becca will log any activity related to the currency system. **This is obtained from the integrations tab of a Discord channel's settings**
 
-These values are necessary for specific commands.Using an invalid value will prevent certain commands from functioning.
+These values are necessary for specific commands. Using an invalid value will prevent certain commands from functioning.
 
 - `NASA_API` (OPTIONAL) - This is the API key for the NASA API. **Obtained from [the NASA Webpage](https://api.nasa.gov/)**
-
-- `HABITICA_KEY` (OPTIONAL) - This is the API key for Habitica. **Obtained from [the Habitica Webpage](https://habitica.com/)**
-
-- `ORBIT_KEY` (OPTIONAL) - This is the API key for Orbit. **Obtained from [the Orbit Webpage](https://orbit.love/)**
-
-- `HEPTAGRAM_API_TOKEN` (OPTIONAL) - This is an API key for the [Heptagram scam-detection API](http://api.heptagrambotproject.com/).
 
 These values are Discord values required for the slash commands.
 
@@ -84,8 +78,14 @@ This is required for the Sentry logging.
 
 - `SENTRY_DSN` (REQUIRED) - This enables external logging through Sentry.io - you will need to set up and configure a project there. **This is obtained from the instructions on the previous page.**
 
+This is required for the Analytics server.
+
+- `ANALYTICS_SECRET` (REQUIRED) - This is the secret to authenticate requests to the analytics API. For development, you can set this to any string you'd like.
+
 These values are used for the top.gg vote tracking.
 
-- `TOPGG_PASSWORD` - This is the password you would provide to the top.gg webhook for authentication. This can be set to any string you'd like, but if you intend to set up an actual webhook you should use a secure password.
+- `TOPGG_TOKEN` (OPTIONAL) - This is the API token for top.gg
 
-- `VOTE_CHANNEL_ID` - This should be the ID of the channel in the `HOME_GUILD_ID` guild where Becca should send vote notifications.
+- `TOPGG_PASSWORD` (OPTIONAL) - This is the password you would provide to the top.gg webhook for authentication. This can be set to any string you'd like, but if you intend to set up an actual webhook you should use a secure password.
+
+- `VOTE_CHANNEL_ID` (OPTIONAL) - This should be the ID of the channel in the `HOME_GUILD_ID` guild where Becca should send vote notifications.
