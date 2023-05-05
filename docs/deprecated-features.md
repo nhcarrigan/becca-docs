@@ -78,7 +78,11 @@ This page documents former features which have been deprecated, including the ve
 
 - `nhcarrigan leave` command _(deprecated in 17.8.0)_ - No longer needed with verification in place.
 
-- `community role` command _(deprecated in 18.6.0)_ - Removed in favour of the `/reactionrole` system.
+- `/community role` command _(deprecated in 18.6.0)_ - Removed in favour of the `/reactionrole` system.
+
+- `/games habitica` command _(deprecated in 22.0.0)_ - Removed due to lack of use.
+
+- `/misc orbit` command _(deprecated in 22.0.0)_ - Removed due to discontinuation of platform use.
 
 ## Temporary Deprecations
 
