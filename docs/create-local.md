@@ -19,6 +19,9 @@ Before you do anything else, make sure that Node.js and npm are installed. If yo
 
 `npm install` - This will install all of the dependencies found in the package.json file automatically. If this does not work, you will need to go through each item listed in that file and run `npm install [packagename]`
 
+> [!NOTE]
+> After installing the dependencies, Prisma will automatically generate the type definitions for the database client based on the schema.
+
 `npm run build` - This will build the TypeScript files into runnable JavaScript files.
 
 Congratulations! You are now ready to run the code locally - the start command is `npm run start`. To connect the code to your Discord Bot application, continue reading.
@@ -27,7 +30,7 @@ Congratulations! You are now ready to run the code locally - the start command i
 
 | Name      | Version | Instructions                                                                                                        |
 | --------- | ------- | ------------------------------------------------------------------------------------------------------------------- |
-| Node.js   | 16.9.1  | [Download](https://nodejs.org/en/download/)                                                                         |
-| npm       | 7.6.0   | Comes bundled with Node - update with `npm i -g npm`                                                                |
-| MongoDB   | 4.4.9   | [Atlas Instructions](https://www.freecodecamp.org/news/get-started-with-mongodb-atlas/)                             |
+| Node.js   | 18.15.0 | [Download](https://nodejs.org/en/download/)                                                                         |
+| npm       | 9.6.2   | Comes bundled with Node - update with `npm i -g npm`                                                                |
+| MongoDB   | 6.0.5   | [Atlas Instructions](https://www.freecodecamp.org/news/get-started-with-mongodb-atlas/)                             |
 | Sentry.io | null    | [Sentry Instructions](https://www.freecodecamp.org/news/how-to-add-sentry-to-your-node-js-project-with-typescript/) |
