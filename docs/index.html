@@ -95,11 +95,41 @@
         successText: "Copied to clipboard",
       },
       maxLevel: 2,
+      docsifyPrism: {
+        init: function () {
+          /**
+           * Custom language extension gratefully stolen from:
+           * https://github.com/prisma/docs/blob/c72eb087fcf57f3c00d153f86c549ef28b3d0f44/src/components/customMdx/prism/prism-prisma.js
+           */
+          Prism.languages.prisma = Prism.languages.extend("clike", {
+            keyword: /\b(?:datasource|enum|generator|model|type)\b/,
+            "type-class-name": /(\b()\s+)[\w.\\]+/,
+          });
+
+          Prism.languages.javascript["class-name"][0].pattern =
+            /(\b(?:model|datasource|enum|generator|type)\s+)[\w.\\]+/;
+
+          Prism.languages.insertBefore("prisma", "function", {
+            annotation: {
+              pattern: /(^|[^.])@+\w+/,
+              lookbehind: true,
+              alias: "punctuation",
+            },
+          });
+
+          Prism.languages.insertBefore("prisma", "punctuation", {
+            "type-args": /\b(?:references|fields|onDelete|onUpdate):/,
+          });
+
+          Prism.languages.json5 = Prism.languages.js;
+        },
+      },
     };
   </script>
   <!-- Docsify v4 -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/docsify/4.13.0/docsify.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/docsify-plugin-flexible-alerts@1"></script>
+  <script src="//cdn.jsdelivr.net/npm/docsify-prism@latest/dist/docsify-prism.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.28.0/components/prism-typescript.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.28.0/components/prism-markdown.min.js"></script>
   <script src="https://unpkg.com/docsify-copy-code@2"></script>

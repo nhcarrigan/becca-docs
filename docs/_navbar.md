@@ -21,6 +21,7 @@
 - [File Structure](/file-structure.md)
 - [Create A Local Instance](/create-local.md)
 - [Set Up The Code](/setup-code.md)
+- [Manage the Database](/database.md)
 - [Deploy the Code](/deploy-code.md)
 - [Create a Pull Request](/creating-pr.md)
 - [Translating Becca](/translation.md)
