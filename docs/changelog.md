@@ -8,6 +8,18 @@ Becca's updates are deployed every Sunday around 8AM Pacific Time.
 
 ## Version 22
 
+### 22.1.0
+
+- Added an environment variable to disable the requests to the analytics server, to facilitate local development.
+- Suppressed errors on the Prisma delete calls during the guild cleanup (we don't care if the record doesn't exist we didn't want it anyway).
+- Updated `/becca feedback` to point to the new feedback website.
+- Added a `/becca announcements` command which automatically follows our announcement channel.
+- Replaced `leo-profanity` with `bad-words`.
+- Fixed issue where settings were not being saved to the database OOPS.
+- Improved `<something>.fetch()` logic, and corresponding responses when fetching fails, to better clarify to the end user.
+- Fixed currency timestamp rendering for real this time.
+- Notify user when they earn a level role but Becca can't assign it.
+
 ### 22.0.0
 
 - Migrated our database ORM from Mongoose to Prisma
