@@ -2,6 +2,9 @@
 
 These instructions will help you set Becca up in your server. These are mainly intended for people using our live instance of Becca.
 
+> [!TIP]
+> We strongly recommend running the `/becca announcements` command to get our update announcements in your server. This will allow you to stay up to date on features and changes.
+
 ## Set Permissions
 
 Becca has specific Discord permissions required for her functionality.

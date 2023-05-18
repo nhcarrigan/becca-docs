@@ -1,5 +1,14 @@
 # [Becca Lyria Docs](/index.md)
 
+---
+
+- [Support](https://chat.naomi.lgbt)
+- [Feedback](https://feedback.beccalyria.com)
+- [Invite](https://invite.beccalyria.com)
+- [Source](https://github.com/beccalyria/discord-bot)
+
+---
+
 ## [Using the Bot](/use.md)
 
 - [Set Permissions](/set-permissions.md)
@@ -14,6 +23,8 @@
 - [Channel Types](/channel-types.md)
 - [Owner Commands](/owner-commands.md)
 
+---
+
 ## [Contributing to the Bot](/contribute.md)
 
 - [How to Contribute](/how-to-contribute.md)
@@ -26,6 +37,8 @@
 - [Create a Pull Request](/creating-pr.md)
 - [Translating Becca](/translation.md)
 
+---
+
 ## [Miscellaneous Documentation](/misc.md)
 
 - [Deprecated Features](/deprecated-features.md)
@@ -35,6 +48,4 @@
 
 ---
 
-© 2022 [Naomi Carrigan](https://www.nhcarrigan.com?utm_source=becca-docs&utm_medium=navbar)
-
-[Webpage art by Moonlight](https://www.instagram.com/moonlightkcreations/)
+© 2023 [Naomi Carrigan](https://www.nhcarrigan.com?utm_source=becca-docs&utm_medium=navbar)

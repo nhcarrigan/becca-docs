@@ -1,5 +1,8 @@
 # Configure your Server
 
+> [!TIP]
+> We strongly recommend running the `/becca announcements` command to get our update announcements in your server. This will allow you to stay up to date on features and changes.
+
 There are a number of options for configuring your server.
 
 > [!NOTE]
@@ -40,7 +43,7 @@ The auto-moderation system will not run on any users who have the `Manage Messag
 | `links`               | `toggle: on \| off`                   | Toggles the Link Detection system between on and off                                                                |
 | `link_message`        | `message: string`                     | Sets the message to be sent when a message containing a link is detected.                                           |
 | `no_automod_channels` | `channel: allChannel`                 | Adds or removes `channel` from the list of channels that are never automodded.                                      |
-| `profanity`           | `toggle: on \| off`                   | Toggles the Profanity Detection system between on and off                                                          |
+| `profanity`           | `toggle: on \| off`                   | Toggles the Profanity Detection system between on and off                                                           |
 | `profanity_message`   | `message: string`                     | Sets the message to be sent when a message containing profanity is detected.                                        |
 
 ## Level Settings
