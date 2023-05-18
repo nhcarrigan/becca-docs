@@ -12,24 +12,25 @@ See the [automod configuration section](/configure-server.md#automod-settings) f
 
 The `/becca` commands relate to information about Becca herself.
 
-| Command       | Parameters   | Description                                                                                                                                                                                                               |
-| ------------- | ------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| `about`       | `null`       | Returns details about Becca's bot instance.                                                                                                                                                                               |
-| `adventure`   | `null`       | Returns an image from one of Becca's adventures.                                                                                                                                                                          |
-| `art`         | `null`       | Returns an art sample from Becca's gallery.                                                                                                                                                                               |
-| `contact`     | `null`       | Provides links to contact the development team.                                                                                                                                                                           |
-| `donate`      | `null`       | Returns information on donating to support Becca's development.                                                                                                                                                           |
-| `emote`       | `null`       | Provides a random Becca emote.                                                                                                                                                                                            |
-| `feedback`    | `null`       | Provides a modal that allows you to send feedback to our team. The feedback you send, your avatar and user tag, and your server name will be included. This is posted in our support server so our community can discuss. |
-| `help`        | `null`       | Provides a series of links explaining how to use Becca.                                                                                                                                                                   |
-| `invite`      | `null`       | Provides a link to invite Becca to a server.                                                                                                                                                                              |
-| `ping`        | `null`       | Returns Becca's response time to commands, the websocket latency, and the database ping.                                                                                                                                  |
-| `privacy`     | `null`       | Returns a link to Becca's privacy policy.                                                                                                                                                                                 |
-| `profile`     | `null`       | Returns a link to Becca's profile page.                                                                                                                                                                                   |
-| `stats`       | `view: Stat` | Provides a leaderboard for the chosen `view`                                                                                                                                                                              |
-| `translators` | `null`       | Lists the wonderful folks who have helped translate Becca.                                                                                                                                                                |
-| `updates`     | `null`       | Displays the latest changes in Becca's code and the link to the change log.                                                                                                                                               |
-| `uptime`      | `null`       | Returns the time since Becca came online.                                                                                                                                                                                 |
+| Command         | Parameters         | Description                                                                                                                      |
+| --------------- | ------------------ | -------------------------------------------------------------------------------------------------------------------------------- |
+| `about`         | `null`             | Returns details about Becca's bot instance.                                                                                      |
+| `adventure`     | `null`             | Returns an image from one of Becca's adventures.                                                                                 |
+| `announcements` | `channel: Channel` | Sets your `channel` to follow our server's announcement channel. You will automatically get our announcements in your `channel`. |
+| `art`           | `null`             | Returns an art sample from Becca's gallery.                                                                                      |
+| `contact`       | `null`             | Provides links to contact the development team.                                                                                  |
+| `donate`        | `null`             | Returns information on donating to support Becca's development.                                                                  |
+| `emote`         | `null`             | Provides a random Becca emote.                                                                                                   |
+| `feedback`      | `null`             | Provides a link to our feedback site.                                                                                            |
+| `help`          | `null`             | Provides a series of links explaining how to use Becca.                                                                          |
+| `invite`        | `null`             | Provides a link to invite Becca to a server.                                                                                     |
+| `ping`          | `null`             | Returns Becca's response time to commands, the websocket latency, and the database ping.                                         |
+| `privacy`       | `null`             | Returns a link to Becca's privacy policy.                                                                                        |
+| `profile`       | `null`             | Returns a link to Becca's profile page.                                                                                          |
+| `stats`         | `view: Stat`       | Provides a leaderboard for the chosen `view`                                                                                     |
+| `translators`   | `null`             | Lists the wonderful folks who have helped translate Becca.                                                                       |
+| `updates`       | `null`             | Displays the latest changes in Becca's code and the link to the change log.                                                      |
+| `uptime`        | `null`             | Returns the time since Becca came online.                                                                                        |
 
 ## Code Commands
 
