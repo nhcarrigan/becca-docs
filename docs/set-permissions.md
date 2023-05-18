@@ -38,6 +38,8 @@ By default, when you invite Becca to your server she will ask for the following 
 
 - View Audit Log
 
+- Manage Webhooks
+
 All of these permissions are necessary for her features to work. Disabling any of these will cause unexpected errors to occur.
 
 > [!NOTE]
@@ -63,7 +65,7 @@ If you disable any permissions on a channel for the `@everyone` role, they _must
 
 ## Validating Permissions
 
-If Becca is not responding in the way you expect, you can run the `becca!permissioncheck` command to confirm that you have granted all of the permissions she needs to function.
+If Becca is not responding in the way you expect, you can run the `/misc permissions` command to confirm that you have granted all of the permissions she needs to function.
 
 ## Administrator Permissions
 
@@ -73,3 +75,5 @@ If Becca is not responding in the way you expect, you can run the `becca!permiss
 If you are not comfortable with managing permissions, or are confused with the channel overrides, granting the administrator permission to Becca's integration role should prevent any issues.
 
 It is important to understand that there are risks with granting a bot the administrator permission. While we strive to provide the best bot experience for you, in the event of a compromising attack on our infrastructure your server could potentially be vulnerable if you grant the administrator permission. Do so with care.
+
+We recommend joining our [support server](https://chat.naomi.lgbt) so we can assist with permission questions, rather than enabling admin.
