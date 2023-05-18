@@ -46,11 +46,13 @@ These values are necessary for the overall operation of the bot.
 
 - `MONGODB` (REQUIRED) - The value of this variable will be your MongoDB authentication URI. Like the token, this needs to be kept secret to prevent unauthorised access to and modification of your database. **Your URI can be obtained per the instructions on the previous page.**
 
-- `NODE_ENV` (REQUIRED) - This tells Becca whether she is in a development state or production state - the webhook message includes this value. Set this to `development` when working locally, and `production` if you are running your own instance.
+- `NODE_ENV` (OPTIONAL) - This tells Becca whether she is in a development state or production state - the webhook message includes this value. Set this to `development` when working locally, and `production` if you are running your own instance.
 
 - `WH_URL` (REQUIRED) - This is the URL for the Discord webhook. Becca will log when it goes online, connects to the database, and any time a server has an error. **This is obtained from the integrations tab of a Discord channel's settings**
 
 - `CURRENCY_WH` (REQUIRED) - This is the URL for the Discord webhook. Becca will log any activity related to the currency system. **This is obtained from the integrations tab of a Discord channel's settings**
+
+- `CURRENCY_REMINDER_WH` () - This is the URL for the Discord webhook. Becca will send currency reminders to this channel. **This is obtained from the integrations tab of a Discord channel's settings**
 
 These values are necessary for specific commands. Using an invalid value will prevent certain commands from functioning.
 
@@ -63,6 +65,8 @@ These values are Discord values required for the slash commands.
 - `CLIENT_ID` (REQUIRED) - This tells Discord which application to attach slash commands to. It should be set to your bot's ID. **This is obtained from the Application tab of your bot's page on the Discord Developer Portal. Copy the Application ID.**
 
 - `HOME_GUILD_ID` (REQUIRED) - If you are developing locally, you'll want to set this to your server's ID. This tells Discord where to register slash commands on the guild level. Guild commands update instantly (global commands update every hour) which makes this ideal for development testing. **This is obtained by enabling developer mode in your Discord settings, right clicking on your server avatar, and selecting Copy ID.**
+
+- `ANNOUNCEMENT_CHANNEL_ID` (OPTIONAL) - This is only needed for the `/becca announcements` commands, and tells her which channel in the `HOME_GUILD_ID` server is the channel to be followed. **This is obtained by enabling developer mode in your Discord settings, right clicking on the channel, and selecting Copy ID.**
 
 These values are optional and will fall back to standard Unicode characters if not present.
 
@@ -80,7 +84,11 @@ This is required for the Sentry logging.
 
 This is required for the Analytics server.
 
-- `ANALYTICS_SECRET` (REQUIRED) - This is the secret to authenticate requests to the analytics API. For development, you can set this to any string you'd like.
+- `ANALYTICS_SECRET` (OPTIONAL) - This is the secret to authenticate requests to the analytics API. For development, you can set this to any string you'd like.
+
+- `ANALYTICS_URL` (OPTIONAL) - The URL for the analytics server. Do not include a trailing slash.
+
+- `ANALYTICS_ENABLED` (OPTIONAL) - This tells Becca whether to send analytics data to the analytics server. This should be set to `true` for production, and `false` for development.
 
 These values are used for the top.gg vote tracking.
 
