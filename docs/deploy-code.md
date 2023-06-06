@@ -28,7 +28,7 @@ https://discord.com/oauth2/authorize?client_id=CLIENT_ID_HERE&permissions=INTEGE
 
 Enter the link in a new window and it will ask you to choose which server you'd like to add your local instance of Becca to.
 
-Once you have added her to your server, switch back to your terminal and run the command `npm start`. If you have set the `WH_URL` in your environment appropriately, Becca should send a message indicating it is online. Otherwise, you should see the text Activate the Omega! in your terminal, indicating she is online! Now you can try some of the commands to see if she is functioning correctly.
+Once you have added her to your server, switch back to your terminal and run the command `pnpm start`. If you have set the `WH_URL` in your environment appropriately, Becca should send a message indicating it is online. Otherwise, you should see the text Activate the Omega! in your terminal, indicating she is online! Now you can try some of the commands to see if she is functioning correctly.
 
 ## Host a Live Version of Becca
 
