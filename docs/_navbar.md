@@ -34,6 +34,7 @@
 - [Set Up The Code](/setup-code.md)
 - [Manage the Database](/database.md)
 - [Deploy the Code](/deploy-code.md)
+- [Test Your Changes](/testing-changes.md)
 - [Create a Pull Request](/creating-pr.md)
 - [Translating Becca](/translation.md)
 

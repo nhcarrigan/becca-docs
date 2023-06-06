@@ -3,7 +3,7 @@
 > [!TIP]
 > You should commit your changes to a new branch. Committing directly to `main` can result in issues for you later on.
 
-When you have made your changes, tested them locally, and are happy with the results, you are ready to submit a pull request.
+When you have made your changes, [tested them locally](/testing-changes.md), and are happy with the results, you are ready to submit a pull request.
 
 > [!ATTENTION]
 > The scope of your pull request should be as narrow as possible. When a pull is merged, the squashed commit message is used in the change log. As such, the changes a PR makes should be limited to something that can be described in a single commit message. (This does NOT mean you can only make one commit, our team will handle the squash on merge.)
