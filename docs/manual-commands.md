@@ -180,6 +180,15 @@ The `/reactionrole` system allows you to set up reaction roles, a common feature
 | -------- | ------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | `create` | `channel: noVoiceChannel`, `header: string`, `roles: ...Role` | Creates a message in the given `channel`, using the `header` as the content. Takes up to 20 role parameters, and creates a button for each one so users can add/remove it. |
 
+## Support Commands
+
+The `/support` commands are related to receiving support from our team.
+
+| Command  | Parameters   | Description                                                                                                   |
+| -------- | ------------ | ------------------------------------------------------------------------------------------------------------- |
+| `logs`   | `id: string` | Only available to our team, this command searches the debug logs for issues related to the given server `id`. |
+| `server` | `null`       | Provides an invite to the support server.                                                                     |
+
 ## Trigger Commands
 
 The `/triggers` commands manage your server's specific triggers. These commands require permission to manage the server.

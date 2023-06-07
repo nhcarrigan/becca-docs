@@ -8,6 +8,16 @@ Becca's updates are deployed every Sunday around 8AM Pacific Time.
 
 ## Version 22
 
+### 22.2.0
+
+- Added permission validation for `/becca announcements` and `/levels set level-roles` commands.
+- Migrated from `npm` to `pnpm` for (in our opinion) faster and cleaner dependency management.
+- Added test coverage, in preparation for improving our testing. Dashboard is [public](https://coverage.beccalyria.com)
+- Updated `/becca about` command to include some metrics regarding the codebase.
+- Added `/support` commands (with more to come!)
+- Continued improvements to error handling.
+- Fixed the command registration owner command.
+
 ### 22.1.0
 
 - Added an environment variable to disable the requests to the analytics server, to facilitate local development.
