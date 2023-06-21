@@ -9,7 +9,7 @@
   "private": true,
   "engines": {
     "node": "18.16.1",
-    "npm": "9.7.1"
+    "npm": "9.7.2"
   },
   "dependencies": {
     "docsify-cli": "4.4.4"
