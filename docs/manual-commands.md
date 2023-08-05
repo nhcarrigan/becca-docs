@@ -67,19 +67,6 @@ The `/config` commands are used to manage the [server settings](/configure-serve
 
 See the [configuration section](/configure-server.md#global-configurations) for more information.
 
-## Currency Commands
-
-The `/currency` commands are used to earn [BeccaCoin](/currency.md), which can be exchanged for rewards in our [support server](https://links.nhcarrigan.com/discord). Joining our support server also allows users to receive reminders when they can claim their weekly and daily rewards.
-
-| Command  | Parameters       | Description                                                                                                         |
-| -------- | ---------------- | ------------------------------------------------------------------------------------------------------------------- |
-| `21`     | `wager: number`  | Play a game of 21 against Becca. If you win, you get your `wager` in BeccaCoin. If you lose, you lose your `wager`. |
-| `about`  | `null`           | Provides information about the currency system.                                                                     |
-| `claim`  | `reward: string` | Exchanges your earned BeccaCoin for a given reward.                                                                 |
-| `daily`  | `null`           | Generates your daily currency reward.                                                                               |
-| `slots`  | `wager: number`  | Play a game of slots. Match two and get 10 times your `wager`. Match 3 and get 100 times your `wager`.              |
-| `weekly` | `null`           | Generates your weekly currency reward.                                                                              |
-
 ## Emote Commands
 
 The `/emote` commands allow you to perform an emote action on another user. The emotes a user has received is tracked.
@@ -184,10 +171,11 @@ The `/reactionrole` system allows you to set up reaction roles, a common feature
 
 The `/support` commands are related to receiving support from our team.
 
-| Command  | Parameters   | Description                                                                                                   |
-| -------- | ------------ | ------------------------------------------------------------------------------------------------------------- |
-| `logs`   | `id: string` | Only available to our team, this command searches the debug logs for issues related to the given server `id`. |
-| `server` | `null`       | Provides an invite to the support server.                                                                     |
+| Command  | Parameters   | Description                                                                                                                                    |
+| -------- | ------------ | ---------------------------------------------------------------------------------------------------------------------------------------------- |
+| `ids`    | `null`       | Returns a list of Discord IDs that will help our support team. You should run this in your server, and share the values in our support server. |
+| `logs`   | `id: string` | Only available to our team, this command searches the debug logs for issues related to the given server `id`.                                  |
+| `server` | `null`       | Provides an invite to the support server.                                                                                                      |
 
 ## Trigger Commands
 

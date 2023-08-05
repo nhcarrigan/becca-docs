@@ -8,6 +8,12 @@ Becca's updates are deployed every Sunday around 8AM Pacific Time.
 
 ## Version 22
 
+### 22.3.0
+
+- Added `/supprot ids` command to get necessary Discord IDs for support team.
+- Removed the currency system.
+- Fixed bug with logic for link automod
+
 ### 22.2.0
 
 - Added permission validation for `/becca announcements` and `/levels set level-roles` commands.
