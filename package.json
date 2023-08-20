@@ -1,7 +1,7 @@
 {
   "name": "becca-lyria",
   "version": "22.3.0",
-  "license": "MPL-2.0",
+  "license": "SEE LICENSE IN https://docs.nhcarrigan.com/#/license",
   "scripts": {
     "lint": "markdownlint ./docs/**/*.md",
     "start": "docsify serve ./docs -o --port 3200"
