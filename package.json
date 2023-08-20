@@ -1,6 +1,6 @@
 {
   "name": "becca-lyria",
-  "version": "22.3.0",
+  "version": "22.4.0",
   "license": "SEE LICENSE IN https://docs.nhcarrigan.com/#/license",
   "scripts": {
     "lint": "markdownlint ./docs/**/*.md",
