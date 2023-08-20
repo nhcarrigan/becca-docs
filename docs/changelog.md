@@ -8,9 +8,16 @@ Becca's updates are deployed every Sunday around 8AM Pacific Time.
 
 ## Version 22
 
+### 22.4.0
+
+- Replaced references to user's Discriminator with new username system
+- Updated software license to our own custom license
+- Added a custom user status to Becca
+- Fixed an error in the leaderboard rendering logic.
+
 ### 22.3.0
 
-- Added `/supprot ids` command to get necessary Discord IDs for support team.
+- Added `/support ids` command to get necessary Discord IDs for support team.
 - Removed the currency system.
 - Fixed bug with logic for link automod
 
