@@ -54,4 +54,4 @@ This check should pass before making a pull request. It is possible that a failu
 
 ## Further Assistance
 
-If you are stuck getting one of these checks to pass, we encourage you to create a [draft pull request](/creating-pr.md) and asking for help in the `#contributors` channel of our [Discord server](https://chat.naomi.lgbt).
+If you are stuck getting one of these checks to pass, we encourage you to create a [draft pull request](/creating-pr.md) and asking for help in the `#contributors` channel of our [Discord server](chat.nhcarrigan.com).

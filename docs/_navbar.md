@@ -2,7 +2,7 @@
 
 ---
 
-- [Support](https://chat.naomi.lgbt)
+- [Support](https://chat.nhcarrigan.com)
 - [Feedback](https://feedback.beccalyria.com)
 - [Invite](https://invite.beccalyria.com)
 - [Source](https://github.com/beccalyria/discord-bot)
