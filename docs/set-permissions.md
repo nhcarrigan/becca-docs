@@ -76,4 +76,4 @@ If you are not comfortable with managing permissions, or are confused with the c
 
 It is important to understand that there are risks with granting a bot the administrator permission. While we strive to provide the best bot experience for you, in the event of a compromising attack on our infrastructure your server could potentially be vulnerable if you grant the administrator permission. Do so with care.
 
-We recommend joining our [support server](https://chat.naomi.lgbt) so we can assist with permission questions, rather than enabling admin.
+We recommend joining our [support server](https://chat.nhcarrigan.com) so we can assist with permission questions, rather than enabling admin.
