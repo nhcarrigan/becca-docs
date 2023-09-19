@@ -8,6 +8,13 @@ Becca's updates are deployed every Sunday around 8AM Pacific Time.
 
 ## Version 22
 
+### 22.5.0
+
+- Updated Node.js to version 20
+- Added `/misc echo` command
+- Updated `/support server` command to provide the correct response
+- Updated chat server link to point to work server
+
 ### 22.4.0
 
 - Replaced references to user's Discriminator with new username system
