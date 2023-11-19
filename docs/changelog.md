@@ -4,7 +4,18 @@ Here you can see changes made across each version of Becca.
 
 Becca's updates are deployed every Sunday around 8AM Pacific Time.
 
-[Version 22](#version-22) | [Version 21](#version-21) | [Version 20](#version-20) | [Version 19](#version-19) | [Version 18](#version-18) | [Version 17](#version-17) | [Version 16](#version-16) | [Version 15](#version-15) | [Version 14](#version-14) | [Version 13](#version-13) | [Version 12](#version-12) | [Version 11](#version-11) | [Version 10](#version-10) | [Version 9](#version-9)
+[Version 23](#version-23) | [Version 22](#version-22) | [Version 21](#version-21) | [Version 20](#version-20) | [Version 19](#version-19) | [Version 18](#version-18) | [Version 17](#version-17) | [Version 16](#version-16) | [Version 15](#version-15) | [Version 14](#version-14) | [Version 13](#version-13) | [Version 12](#version-12) | [Version 11](#version-11) | [Version 10](#version-10) | [Version 9](#version-9)
+
+## Version 23
+
+### 23.0.0
+
+- **Becca has been placed into maintenance only mode.**
+- Updated links to documentation to point to nhcarrigan domain, retiring Becca's domain.
+- Cleaned up old database models.
+- Fixed description in poll command.
+- Activity context command is ephemeral now.
+- Added command to request user data through the bot.
 
 ## Version 22
 

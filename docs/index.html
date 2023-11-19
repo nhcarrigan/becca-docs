@@ -57,6 +57,33 @@
       .sidebar-nav > h1 {
         font-size: var(--modular-scale-2);
       }
+
+      #alert {
+        position: fixed;
+        z-index: 10;
+        height: 40px;
+        background-color: salmon;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        font-size: 30px;
+      }
+
+      @media screen and (max-width: 1350px) {
+        #alert {
+          font-size: 20px;
+          height: 30px;
+        }
+      }
+
+      @media screen and (max-width: 950px) {
+        #alert {
+          font-size: 12px;
+          height: 22px;
+        }
+      }
     </style>
     <title>Becca Lyria Documentation</title>
     <script type="text/javascript">
@@ -72,6 +99,7 @@
     </script>
   </head>
   <body>
+    <a href="https://chat.nhcarrigan.com"><div id="alert"><p>Becca Lyria is now in maintenance mode. If you have questions, please join our support server.</p></div></a>
     <div id="app">
       <h1>Becca Lyria Documentation</h1>
       <p>Documentation for Becca Lyria, the Discord bot.</p>
