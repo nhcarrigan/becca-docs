@@ -174,10 +174,10 @@ The `/support` commands are related to receiving support from our team.
 
 | Command  | Parameters   | Description                                                                                                                                    |
 | -------- | ------------ | ---------------------------------------------------------------------------------------------------------------------------------------------- |
+| `data-request` | `null` | Returns a copy of the data we have stored about you, and the current server(if you are the owner). |
 | `ids`    | `null`       | Returns a list of Discord IDs that will help our support team. You should run this in your server, and share the values in our support server. |
 | `logs`   | `id: string` | Only available to our team, this command searches the debug logs for issues related to the given server `id`.                                  |
 | `server` | `null`       | Provides an invite to the support server.                                                                                                      |
-| `data-request` | `null` | Returns a copy of the data we have stored about you, and the current server(if you are the owner). |
 
 ## Trigger Commands
 
