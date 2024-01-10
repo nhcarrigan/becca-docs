@@ -1,5 +1,10 @@
 # Privacy Policy
 
+> [!DANGER]
+> In the spirit of open source, errors are logged publicly in our Discord community. These logs may include information relevant to the error in question.
+>
+> We encourage you to [join our Discord](https://chat.nhcarrigan.com) to see what is logged PRIOR to using our applications.
+
 The use of this application ("Becca") in a server requires the collection of some specific user data ("Data"). The Data collected includes, but is not limited to, user names, user nicknames, and Discord user ID values. Use of Becca is considered an agreement to the terms of this Policy.
 
 ## Access to Data
